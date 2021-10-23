@@ -32,7 +32,15 @@ h2{
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     text-align: center;
-    padding: 1rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 0.8rem;
 }
 
 p{
@@ -48,7 +56,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    margin: 0;
+    margin-bottom: 3rem;
 }
 
 #landing-text{
@@ -71,19 +79,37 @@ p{
     margin-top: 4rem;
 }
 
-.container{
-
-    padding: 1rem 9%;
+.heading{
+    padding: 1rem;
+    text-align: center;
 }
 
-.container .icons{
+.heading h2{
+    border-bottom: solid 0.2rem #63B5FF;
+    display: inline-block;
+}
+
+.inner-heading{
+    padding: 0.4rem;
+    text-align: center;
+    font-weight: 400;
+    color: #373737;
+    /* background-color: rgba(43, 43, 43, 0.946); */
+}
+
+.container{
+    padding: 1rem 9%;
+    margin-top: 2rem;;
+}
+
+.container .section{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-gap: 2rem;
     margin: 1rem 9%;
 }
 
-.container .icons .box-icon{
+.container .section .box{
     background-color: white;
     height: 20rem;
     display: flex;
@@ -106,7 +132,7 @@ p{
 
 
 
-.container .icons .box-icon img{
+.container .section .box img{
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -114,7 +140,7 @@ p{
     margin-top: -1rem;
 }
 
-.container .icons .box-icon a{
+.container .section .box a{
     text-decoration: none;
     color: black;
     

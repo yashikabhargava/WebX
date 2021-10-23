@@ -1,0 +1,56 @@
+/* #63B5FF */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Roboto Condensed', sans-serif;
+    margin:0;
+    background:#ffffff;
+    height: auto;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin:0;
+    text-align: center;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+#landing{
+    display: flex;
+    background-image: url("img/landing-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin: 0;
+}
+
+#landing-text{
+    flex:1 50vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-img{
+    background: url("img/landing-img.svg");
+    background-position: center;
+    background-size: 95vh;
+    background-repeat: no-repeat;
+    height: 90vh;
+    flex:2 50vw;
+    margin-top: 4rem;
+}

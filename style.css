@@ -266,25 +266,3 @@ input[type="submit"]:hover{
     transition: 0.4s;
     border: solid 0.11rem  #63B5FF;
 }
-
-@media(max-width:600px) {
-
-    #landing-text{
-        display:flex;
-        justify-content:flex-start; 
-        flex-direction: column;
-        height: 50vh; 
-        justify-content: center;
-        align-items: center;
-    }
-
-    #landing-img{
-        /* background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
-        height: 50vh;
-        /* flex:0 1 60vw;
-        margin: 0;  */
-    }
-    
-}

@@ -1,4 +1,5 @@
 /* #63B5FF */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -53,6 +54,7 @@ p{
 
 .nav-area{
     overflow: hidden;
+    padding: 1rem;
 }
 
 .nav-area .left-nav a{
@@ -61,9 +63,14 @@ p{
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 0.8rem 1rem;
-    font: 1.5rem;
-    font-weight: 400;
+    padding: 0rem 5rem;
+    font-size: 2.5rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 500;
+}
+
+.nav-area .right-nav{
+    margin-right: 4rem;
 }
 
 .nav-area .right-nav a{
@@ -72,9 +79,13 @@ p{
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 0.8rem 1rem;
+    padding: 1.4rem 1.4rem;
     font: 1.5rem;
     font-weight: 400;
+}
+.nav-area .right-nav a :hover{
+    color: #63B5FF;
+    background-color: #161616;
 }
 
 #landing{
@@ -88,6 +99,7 @@ p{
 
 #landing-text{
     flex:1 50vw;
+    margin-top: 6rem;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -95,6 +107,30 @@ p{
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
+#landing-text h2{
+    text-transform: lowercase;
+}
+
+#landing #landing-text #btn{
+    margin-top: 2rem;
+}
+
+
+#btn a{
+    text-decoration: none;
+    background-color: white;
+    color: #63B5FF;
+    font-size: 1.6rem;
+    padding: 0.6rem 1.7rem;
+    border: solid 0.1rem #63B5FF;
+}
+
+#btn a :hover{
+    background-color: #63B5FF;
+    color: #ffffff;
+}
+
 
 #landing-img{
     background: url("img/landing-img.svg");
@@ -105,6 +141,8 @@ p{
     flex:2 50vw;
     margin-top: 4rem;
 }
+
+
 
 .heading{
     text-align: center;
@@ -156,6 +194,11 @@ p{
     0 16px 16px hsl(0deg 0% 0% / 0.075); */
 }
 
+.container .section .box :hover{
+    opacity: 0.8;
+    transform: scale(1);
+}
+
 
 
 .container .section .box img{
@@ -163,7 +206,7 @@ p{
     width: 100%;
     object-fit: contain;
     display: block;
-    margin-top: -1rem;
+    margin-top: -1.3rem;
 }
 
 .container .section .box a{

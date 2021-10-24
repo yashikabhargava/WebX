@@ -259,6 +259,9 @@ input[type="submit"]:hover{
 
 @media(max-width:600px) {
 
+    .nav-area{
+        margin-left: 2rem;
+    }
 
     .nav-area .left-nav a{
         margin-left: 1.5rem;

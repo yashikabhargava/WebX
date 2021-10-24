@@ -18,58 +18,43 @@ WebX is a streamlined website which focuses on providing various free frontend w
 (3) Start the server
 
   
-## Tech Stack
+## Built with
 
-HTML5,CSS
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
-  
-## 🛠 Skills
-Javascript, HTML, CSS...
 
-  
 ## Roadmap
 
-- Additional browser support
-
-- Add more integrations
-
+Since Front-end Web Development is a dynamic field so, its's tools and technologies keeps on changing. So there will be addition of new tools with time.
   
-## Screenshots
+## Screenshots of the working Application
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="img\Screenshot (25).png" width="50%"> 
+<img src="img\Screenshot (27).png" width="50%">
 
-  
-## Acknowledgements
+ 
+## Useful Resources
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-  ## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+ - https://www.w3schools.com/css/css3_flexbox.asp
+ - https://www.w3schools.com/css/css_grid.asp
 
 
 ## 🔗 Project Video Link
 
-
+To know more about the project, check out the YouTube video at
 
 ## Team
 
-
-
-- Yashika Bhargava
-- Sakshi Sahrma
-- Vidhi Dixit
+- [Yashika Bhargava](https://github.com/yashikabhargava)
+- [Sakshi Sharma](https://github.com/SakshiSharma2002)
+- [Vidhi Dixit](https://github.com/VidhiDixit2000)
 
   
 ## Contact us
 
-Any additional information goes here
+In case of any suggestions or enquires, feel free to reach out to the contributors.
 
   

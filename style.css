@@ -85,7 +85,8 @@ p{
 }
 .nav-area .right-nav a:hover{
     color: #63B5FF;
-    background-color: #161616;
+    background-color: #1c1c1c;
+    transition: 0.5s;
 }
 
 #landing{
@@ -264,33 +265,4 @@ input[type="submit"]:hover{
     color:#63B5FF;
     transition: 0.4s;
     border: solid 0.11rem  #63B5FF;
-}
-
-@media(max-width:600px) {
-
-
-    /* #landing{
-    background: #eeeeee;
-    }
-    #landing-text{
-        display:flex;
-        flex:0 1 40vw;
-        height: 50vh;
-        justify-content: center;
-        align-items: center;
-        text-align:center;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-
-    #landing-img{
-        background: url("img/landing-img.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 50vh;
-        flex:0 1 60vw;
-        margin: 0; */
-    /* } */
-    
 }

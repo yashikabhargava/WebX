@@ -83,7 +83,7 @@ p{
     font: 1.5rem;
     font-weight: 400;
 }
-.nav-area .right-nav a :hover{
+.nav-area .right-nav a:hover{
     color: #63B5FF;
     background-color: #161616;
 }
@@ -126,7 +126,7 @@ p{
     border: solid 0.1rem #63B5FF;
 }
 
-#btn a :hover{
+#btn a:hover{
     background-color: #63B5FF;
     color: #ffffff;
 }
@@ -194,7 +194,7 @@ p{
     0 16px 16px hsl(0deg 0% 0% / 0.075); */
 }
 
-.container .section .box :hover{
+.container .section .box:hover{
     opacity: 0.8;
     transform: scale(1);
 }

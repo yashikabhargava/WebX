@@ -32,8 +32,8 @@ Since Front-end Web Development is a dynamic field so, its's tools and technolog
   
 ## Screenshots of the working Application
 
-<img src="img\Screenshot (25).png" width="50%"> 
-<img src="img\Screenshot (27).png" width="50%">
+<img src="img\Screenshot1.jpg"> 
+<img src="img\Screenshot2.jpg">
 
  
 ## Useful Resources

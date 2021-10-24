@@ -260,7 +260,7 @@ input[type="submit"]:hover{
 @media(max-width:600px) {
 
     .nav-area{
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .nav-area .left-nav a{

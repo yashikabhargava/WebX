@@ -47,7 +47,7 @@ Since Front-end Web Development is a dynamic field so, its's tools and technolog
 
 ## 🔗 Project Video Link
 
-To know more about the project, check out the YouTube video at
+To know more about the project, check out the YouTube video at https://youtu.be/d1zzy8HtTpw
 
 ## Team
 

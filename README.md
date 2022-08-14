@@ -41,8 +41,8 @@ Since Front-end Web Development is a dynamic field so, its's tools and technolog
  
 ## Useful Resources
 
- - https://www.w3schools.com/css/css3_flexbox.asp
- - https://www.w3schools.com/css/css_grid.asp
+ - [**css3_flexbox**](https://www.w3schools.com/css/css3_flexbox.asp)
+ - [**css_grid**](https://www.w3schools.com/css/css_grid.asp)
 
 
 ## 🔗 Project Video Link

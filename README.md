@@ -4,7 +4,7 @@
 WebX is a streamlined website which focuses on providing various free frontend web development tools and inspiration all at one place.
 
 # Link:
-Live Site URL: https://yashikabhargava.github.io/WebX/
+Live Site URL: [**here**](https://yashikabhargava.github.io/WebX/)
 
 ## Run Locally
 
@@ -12,7 +12,7 @@ Live Site URL: https://yashikabhargava.github.io/WebX/
 
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/yashikabhargava/WebX
 ```
 
 (2) Run the index.html file on your local server

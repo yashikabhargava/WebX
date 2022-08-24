@@ -58,6 +58,6 @@ To know more about the project, check out the YouTube video at https://youtu.be/
   
 ## Contact us
 
-In case of any suggestions or enquires, feel free to reach out to the contributors.
+In case of any suggestions or enquires, feel free to reach out to one of the team member.
 
   

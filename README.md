@@ -27,11 +27,6 @@ Live Site URL: [**here**](https://yashikabhargava.github.io/WebX/)
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-
-## Roadmap
-
-Since Front-end Web Development is a dynamic field so, its's tools and technologies keeps on changing. So there will be addition of new tools with time.
   
 ## Screenshots of the working Application
 
@@ -43,21 +38,5 @@ Since Front-end Web Development is a dynamic field so, its's tools and technolog
 
  - [**css3_flexbox**](https://www.w3schools.com/css/css3_flexbox.asp)
  - [**css_grid**](https://www.w3schools.com/css/css_grid.asp)
-
-
-## 🔗 Project Video Link
-
-To know more about the project, check out the YouTube video at https://youtu.be/d1zzy8HtTpw
-
-## Team
-
-- [Yashika Bhargava](https://github.com/yashikabhargava)
-- [Sakshi Sharma](https://github.com/SakshiSharma2002)
-- [Vidhi Dixit](https://github.com/VidhiDixit2000)
-
-  
-## Contact us
-
-In case of any suggestions or enquires, feel free to reach out to one of the team member.
 
   

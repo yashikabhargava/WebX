@@ -259,6 +259,10 @@ input[type="submit"]:hover{
 
 @media(max-width:600px) {
 
+    body {
+        font-size: 100%;
+    }
+    
     .nav-area .left-nav a{
         margin-left: 1.5rem;
     }
@@ -297,10 +301,6 @@ input[type="submit"]:hover{
         background-size: 20rem;
         flex:0 1 50vw;
         margin: 2rem;
-    }
-
-    #btn{
-        display: none;
     }
 
     .container .section{

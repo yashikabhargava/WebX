@@ -1,316 +1,289 @@
 /* #63B5FF */
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    font-family:'Roboto Condensed', sans-serif;
-    margin:0;
-    background:#ffffff;
-    height: auto;
-}
-
-h1{
-    font-weight: 400;
-    font-size: 2.5rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    margin:0;
-    text-align: center;
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: auto;
+  background: #ffffff;
+  height: auto;
 }
 
-h2{
-    font-weight: 400;
-    font-size: 2rem;
-    padding: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    text-align: center;
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
 }
 
-h3{
-    font-weight: 400;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    padding: 0.8rem;
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: center;
 }
 
-p{
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
+h3 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding: 0.8rem;
 }
 
-.nav-area{
-    overflow: hidden;
-    padding: 1rem;
+p {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
-.nav-area .left-nav a{
-    float: left;
-    color: #63B5FF;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    padding: 0rem 5rem;
-    font-size: 2.5rem;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-weight: 500;
+.nav-area {
+  overflow: hidden;
+  padding: 1rem;
 }
 
-.nav-area .right-nav{
-    margin-right: 4rem;
+.nav-area .left-nav a {
+  float: left;
+  color: #63b5ff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0rem 5rem;
+  font-size: 2.5rem;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 500;
 }
 
-.nav-area .right-nav a{
-    float: right;
-    color: #161616;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    padding: 1.4rem 1.4rem;
-    font: 1.5rem;
-    font-weight: 400;
-}
-.nav-area .right-nav a:hover{
-    color: #63B5FF;
-    background-color: #1c1c1c;
-    transition: 0.5s;
+.nav-area .right-nav {
+  margin-right: 4rem;
 }
 
-#landing{
-    display: flex;
-    background-image: url("img/landing-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin-bottom: 3rem;
+.nav-area .right-nav a {
+  float: right;
+  color: #161616;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 1.4rem 1.4rem;
+  font: 1.5rem;
+  font-weight: 400;
+}
+.nav-area .right-nav a:hover {
+  color: #63b5ff;
+  background-color: #1c1c1c;
+  transition: 0.5s;
 }
 
-#landing-text{
-    flex:1 50vw;
-    margin-top: 6rem;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    padding-right: 1rem;
-    padding-left: 1rem;
+#landing {
+  display: flex;
+  background-image: url("img/landing-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 3rem;
 }
 
-#landing-text h2{
-    text-transform: lowercase;
+#landing-text {
+  margin-top: 6rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-#landing #landing-text #btn{
-    margin-top: 2rem;
+#landing-text h2 {
+  text-transform: lowercase;
 }
 
-
-#btn a{
-    text-decoration: none;
-    background-color: white;
-    color: #63B5FF;
-    font-size: 1.6rem;
-    padding: 0.6rem 1.7rem;
-    border: solid 0.1rem #63B5FF;
+#landing #landing-text #btn {
+  margin-top: 2rem;
 }
 
-#btn a:hover{
-    background-color: #63B5FF;
-    color: #ffffff;
+#btn a {
+  text-decoration: none;
+  background-color: white;
+  color: #63b5ff;
+  font-size: 1.6rem;
+  padding: 0.6rem 1.7rem;
+  border: solid 0.1rem #63b5ff;
 }
 
-
-#landing-img{
-    background: url("img/landing-img.svg");
-    background-position: center;
-    background-size: 100vh;
-    background-repeat: no-repeat;
-    height: 90vh;
-    flex:2 50vw;
-    margin-top: 4rem;
+#btn a:hover {
+  background-color: #63b5ff;
+  color: #ffffff;
 }
 
-
-
-.heading{
-    text-align: center;
+#landing-img {
+  background-position: center;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
 }
 
-.heading h2{
-    border-bottom: solid 0.2rem #63B5FF;
-    display: inline-block;
+.heading {
+  text-align: center;
 }
 
-.inner-heading{
-    padding: 0.4rem;
-    text-align: center;
-    font-weight: 400;
-    color: #373737;
+.heading h2 {
+  border-bottom: solid 0.2rem #63b5ff;
+  display: inline-block;
 }
 
-.container{
-    padding: 1rem 9%;
-    margin-top: 2rem;;
+.inner-heading {
+  padding: 0.4rem;
+  text-align: center;
+  font-weight: 400;
+  color: #373737;
 }
 
-.container .section{
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    grid-gap: 2rem;
-    margin: 1rem 9%;
+.container {
+  padding: 1rem 9%;
+  margin-top: 2rem;
 }
 
-.container .section .box{
-    background-color: white;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
+.container .section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin: 1rem 9%;
+}
 
-    box-shadow:
-    3.4px 3.4px 2.2px -7px rgba(0, 0, 0, 0.022),
+.container .section .box {
+  background-color: white;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 3.4px 3.4px 2.2px -7px rgba(0, 0, 0, 0.022),
     8.7px 8.7px 5.5px -7px rgba(0, 0, 0, 0.031),
     17.7px 17.7px 11.2px -7px rgba(0, 0, 0, 0.039),
     36.5px 36.5px 23px -7px rgba(0, 0, 0, 0.048),
     100px 100px 63px -7px rgba(0, 0, 0, 0.07);
 }
 
-.container .section .box:hover{
-    opacity: 0.8;
-    transform: scale(1);
+.container .section .box:hover {
+  opacity: 0.8;
+  transform: scale(1);
 }
 
-.container .section .box img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    display: block;
-    margin-top: -1.3rem;
+.container .section .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin-top: -1.3rem;
 }
 
-.container .section .box a{
-    text-decoration: none;
-    color: black;
-    
+.container .section .box a {
+  text-decoration: none;
+  color: black;
 }
 
-.form-content{
-    padding:1.5rem;
-    margin: 1rem 9%;
+.form-content {
+  padding: 1.5rem;
+  margin: 1rem 9%;
 }
 
-input,textarea,
+input,
+textarea,
 input::-webkit-input-placeholder {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 input[type="text"],
 input[type="email"],
 select,
-textarea{
-    width: 100%;
-    padding: 1rem;
-    margin-top: 0.6rem;
-    border: 1px solid rgb(240, 240, 240);
-    background-color: rgb(250, 250, 250);
-    border-radius: 5px;
-    box-sizing: border-box;
-
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.6rem;
+  border: 1px solid rgb(240, 240, 240);
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-.contact-us .form-content p{
-    text-align: left;
+.contact-us .form-content p {
+  text-align: left;
 }
 
-input[type="submit"]{
-    text-decoration: none;
-    padding: 0.8rem 2.5rem;
-    margin:1rem 42%;
-    display: inline-block;
-    color:#ffffff;
-    border: solid 0.13rem  #63B5FF;
-    background-color:  #63B5FF;
-    box-shadow:
-    3.4px 3.4px 2.7px rgba(0, 0, 0, 0.025),
+input[type="submit"] {
+  text-decoration: none;
+  padding: 0.8rem 2.5rem;
+  margin: 1rem 42%;
+  display: inline-block;
+  color: #ffffff;
+  border: solid 0.13rem #63b5ff;
+  background-color: #63b5ff;
+  box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.025),
     8.7px 8.7px 6.9px rgba(0, 0, 0, 0.035),
     17.7px 17.7px 14.2px rgba(0, 0, 0, 0.045),
     36.5px 36.5px 29.2px rgba(0, 0, 0, 0.055),
     100px 100px 80px rgba(0, 0, 0, 0.08);
 }
 
-input[type="submit"]:hover{
-    background-color:rgb(255, 255, 255);
-    color:#63B5FF;
-    transition: 0.4s;
-    border: solid 0.11rem  #63B5FF;
+input[type="submit"]:hover {
+  background-color: rgb(255, 255, 255);
+  color: #63b5ff;
+  transition: 0.4s;
+  border: solid 0.11rem #63b5ff;
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
+  .nav-area .left-nav a {
+    margin-left: 1.5rem;
+  }
 
-    .nav-area .left-nav a{
-        margin-left: 1.5rem;
-    }
+  .nav-area .right-nav a {
+    padding: 1.4rem 1rem;
+    margin-right: -0.8rem;
+  }
 
-    .nav-area .right-nav a{
-        padding: 1.4rem 1rem;
-        margin-right: -0.8rem;
-    }
+  .nav-area .right-nav a:hover {
+    background-color: #ffffff;
+  }
 
-    .nav-area .right-nav a:hover{
-        background-color: #ffffff;
-    }
+  #landing {
+    display: flex;
+    flex-direction: column;
+  }
+  #landing-text {
+    margin-top: 0;
+  }
+  #landing-text h1 {
+    font-size: 1.8rem;
+  }
 
+  #landing-text h2 {
+    font-size: 1.4rem;
+  }
 
-    #landing{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #landing-text{
-        flex:0 1 40vw;
-        height: 50vh;
-        margin: 1rem;
-    }
+  #btn {
+    display: none;
+  }
 
-    #landing-text h1{
-        font-size: 1.8rem;
-    }
+  .container .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    margin: 0.6rem 9%;
+  }
 
-    #landing-text h2{
-        font-size: 1.4rem;
-    }
-
-    #landing-img{
-        
-        background-size: 20rem;
-        flex:0 1 50vw;
-        margin: 2rem;
-    }
-
-    #btn{
-        display: none;
-    }
-
-    .container .section{
-        display: grid;
-        grid-template-columns:repeat(1,1fr);
-        grid-gap: 2rem;
-        margin: 0.6rem 9%;
-    }
-
-    input[type="submit"]{
-        margin: 1rem 20%;
-    }
+  input[type="submit"] {
+    margin: 1rem 20%;
+  }
 }

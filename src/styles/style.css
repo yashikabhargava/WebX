@@ -313,7 +313,7 @@ body {
     flex-direction: column;
   }
   .nav-area > .right-nav {
-    padding: 0px;
+    padding: px;
     margin: 0px;
   }
 }

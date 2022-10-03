@@ -199,6 +199,7 @@ p {
 .form-content {
   padding: 1.5rem;
   margin: 1rem 9%;
+  background: #c8dff3;
 }
 
 input,
@@ -242,9 +243,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: rgb(255, 255, 255);
-  color: #63b5ff;
   transition: 0.4s;
   border: solid 0.11rem #63b5ff;
+  color: #000000;
+  
 }
 
 @media (max-width: 1000px){
@@ -339,4 +341,8 @@ input[type="submit"]:hover {
 
 .landing-div {
 height: 100vh;
+}
+
+label{
+  float: left;
 }

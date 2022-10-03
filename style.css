@@ -18,9 +18,11 @@ body {
   margin: auto;
   background: #ffffff;
   height: auto;
+
 }
 
 h1 {
+
   font-weight: 400;
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
@@ -30,6 +32,7 @@ h1 {
 }
 
 h2 {
+  
   font-weight: 400;
   font-size: 2rem;
   padding: 1rem;
@@ -39,6 +42,7 @@ h2 {
 }
 
 h3 {
+
   font-weight: 400;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -57,6 +61,7 @@ p {
 .nav-area {
   overflow: hidden;
   padding: 1rem;
+  margin-top: 30px;
 }
 
 .nav-area .left-nav a {
@@ -66,9 +71,10 @@ p {
   display: block;
   text-align: center;
   padding: 0rem 5rem;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
-  font-family: "Zen Kurenaido", sans-serif;
-  font-weight: 500;
+  font-weight: bolder;
+ 
 }
 
 .nav-area .right-nav {
@@ -81,14 +87,16 @@ p {
   text-decoration: none;
   display: block;
   text-align: center;
-  padding: 1.4rem 1.4rem;
-  font: 1.5rem;
-  font-weight: 400;
+  padding: 0 18px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(30, 29, 29);
+  font-family: "Zen Kurenaido", sans-serif;
 }
 
 .nav-area .right-nav a:hover {
   color: #63b5ff;
-  background-color: #1c1c1c;
+  
   transition: 0.5s;
 }
 
@@ -139,11 +147,16 @@ p {
 
 .heading {
   text-align: center;
+  
 }
 
 .heading h2 {
   border-bottom: solid 0.2rem #63b5ff;
   display: inline-block;
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  
 }
 
 .inner-heading {
@@ -151,7 +164,20 @@ p {
   text-align: center;
   font-weight: 400;
   color: #373737;
+  padding: 100px 0 20px 0;
 }
+.inner-heading  h3 {
+  padding: 0.4rem;
+  text-align: center;
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-weight: 700;
+  color: #373737;
+}
+.for-icons{
+  margin-top: -50px;
+}
+
+
 
 .container {
   padding: 1rem 9%;
@@ -247,6 +273,11 @@ input[type="submit"]:hover {
   border: solid 0.11rem #63b5ff;
   color: #000000;
   
+}
+
+.footer p{
+  color: #8f8f8f;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1000px){

@@ -10,7 +10,7 @@ WebX is a streamlined website which focuses on providing various free frontend w
 
 # Contribution is fun! :green_heart:
 
-In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the [Code of Conduct](https://github.com/yashikabhargava/WebX/blob/main/CODE_OF_CONDUCT.md) and read the [contribution guidelines].(https://github.com/yashikabhargava/WebX/blob/main/Contributing.md)
+In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the [Code of Conduct](https://github.com/yashikabhargava/WebX/blob/main/CODE_OF_CONDUCT.md) and read the [contribution guidelines](https://github.com/yashikabhargava/WebX/blob/main/Contributing.md).
 
 Happy Submissions :slightly_smiling_face:
   

@@ -20,6 +20,20 @@ body {
   height: auto;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f042;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.625rem;
+  background: #63b5ff;
+}
+
+
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
@@ -44,7 +58,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-align: center;
-  padding: 0.8rem;
+  padding: 4.8rem 0 4.8rem 0;
 }
 
 p {
@@ -154,6 +168,10 @@ p {
   color: #373737;
 }
 
+.icons-heading {
+  padding: 0 0 2rem 0;
+}
+
 .container {
   padding: 1rem 9%;
   margin-top: 2rem;
@@ -201,6 +219,10 @@ p {
   padding: 1.5rem;
   margin: 1rem 9%;
   background: #c8dff3;
+}
+
+.contact-heading {
+  margin-top: 4.8rem;
 }
 
 input,

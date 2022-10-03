@@ -199,7 +199,6 @@ p {
 .form-content {
   padding: 1.5rem;
   margin: 1rem 9%;
-  border-radius: 1rem;
   background: #c8dff3;
 }
 
@@ -234,7 +233,6 @@ input[type="submit"] {
   color: #ffffff;
   border: solid 0.13rem #63b5ff;
   background-color: #63b5ff;
-  border-radius: 1.25rem;
   box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.025),
     8.7px 8.7px 6.9px rgba(0, 0, 0, 0.035),
     17.7px 17.7px 14.2px rgba(0, 0, 0, 0.045),

@@ -1,5 +1,6 @@
 /* #63B5FF */
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   margin: auto;
@@ -83,6 +85,7 @@ p {
   font: 1.5rem;
   font-weight: 400;
 }
+
 .nav-area .right-nav a:hover {
   color: #63b5ff;
   background-color: #1c1c1c;
@@ -245,6 +248,38 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 600px) {
+
+
+  #landing {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #btn {
+    display: none;
+  }
+
+  .container .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    margin: 0.6rem 9%;
+  }
+
+
+
+  input[type="submit"]:hover {
+    background-color: rgb(255, 255, 255);
+    color: #63B5FF;
+    transition: 0.4s;
+    border: solid 0.11rem #63B5FF;
+  }
+
+  body {
+    font-size: 100%;
+  }
+
   .nav-area .left-nav a {
     margin-left: 1.5rem;
   }
@@ -258,13 +293,12 @@ input[type="submit"]:hover {
     background-color: #ffffff;
   }
 
+
   #landing {
     display: flex;
     flex-direction: column;
   }
-  #landing-text {
-    margin-top: 0;
-  }
+
   #landing-text h1 {
     font-size: 1.8rem;
   }
@@ -273,83 +307,17 @@ input[type="submit"]:hover {
     font-size: 1.4rem;
   }
 
-  #btn {
-    display: none;
-  }
 
-  .container .section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 2rem;
-    margin: 0.6rem 9%;
-  }
 
   input[type="submit"] {
     margin: 1rem 20%;
   }
 
-input[type="submit"]:hover{
-    background-color:rgb(255, 255, 255);
-    color:#63B5FF;
-    transition: 0.4s;
-    border: solid 0.11rem  #63B5FF;
 }
 
-@media(max-width:600px) {
-
-    body {
-        font-size: 100%;
-    }
-    
-    .nav-area .left-nav a{
-        margin-left: 1.5rem;
-    }
-
-    .nav-area .right-nav a{
-        padding: 1.4rem 1rem;
-        margin-right: -0.8rem;
-    }
-
-    .nav-area .right-nav a:hover{
-        background-color: #ffffff;
-    }
-
-
-    #landing{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #landing-text{
-        flex:0 1 40vw;
-        height: 50vh;
-        margin: 1rem;
-    }
-
-    #landing-text h1{
-        font-size: 1.8rem;
-    }
-
-    #landing-text h2{
-        font-size: 1.4rem;
-    }
-
-    #landing-img{
-        
-        background-size: 20rem;
-        flex:0 1 50vw;
-        margin: 2rem;
-    }
-
-    .container .section{
-        display: grid;
-        grid-template-columns:repeat(1,1fr);
-        grid-gap: 2rem;
-        margin: 0.6rem 9%;
-    }
-
-    input[type="submit"]{
-        margin: 1rem 20%;
-    }
-
+@media (min-width: 992px){
+  
+  .hero-img {
+    margin-top:10em;
+  }
 }

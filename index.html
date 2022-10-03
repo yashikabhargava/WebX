@@ -7,10 +7,14 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://css.gg/chevron-down.css" rel="stylesheet">
+
     <title>WebX</title>
 </head>
 <body>
@@ -56,7 +60,8 @@
             <div class="container">
 
                 <div class ="inner-heading">
-                    <h3>for Icons</h3>
+                    <!-- added class for 1st heading -->
+                    <h3 class="icons-heading">for Icons</h3>
                 </div>
                
                 <div class="section">
@@ -337,7 +342,7 @@
                     </div>
 
                     <div class ="box">
-                        <a href=https://www.lifeofvids.com/"">
+                        <a href="https://www.lifeofvids.com/">
                             
                             <img src="img/Stock Photos/img6.jpg" alt="">
                             <p>
@@ -525,6 +530,7 @@
             </div>
         </div>
 
+
         <div class="container contact-form">
             <div class="contact-image">
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
@@ -551,6 +557,31 @@
                             <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
                         </div>
                     </div>
+
+        <div id="contact-us">
+            <form action="">
+
+                <div class="heading">
+                    <!-- added class for contact-heading -->
+                    <h2 class="contact-heading">Contact Us</h2>
+                </div>
+
+                <div class="form-content">
+                    <p>
+                        <label for="name"> <b>Name: </b></label>
+                       <input type="text" name="name" required placeholder="Your Name">
+                    </p>
+
+                   <p>
+                    <label for="email"> <b>Email:</b></label>
+                       <input type="email" name="email" id="email"  placeholder="abc@example.com">
+                    </p>
+
+                   <p>
+                     <label for="message"> <b>Message: </b> </label>
+                    <textarea name="message" id="message" cols="100" rows="10" placeholder="Enter your message here"></textarea></p>
+                   <input type="submit" value="SUBMIT">
+
                 </div>
             </form>
 </div>

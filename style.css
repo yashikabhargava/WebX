@@ -20,6 +20,21 @@ body {
   height: auto;
 }
 
+/* added scrollbar design */
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f042;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.625rem;
+  background: #63b5ff;
+}
+
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
@@ -38,13 +53,15 @@ h2 {
   text-align: center;
 }
 
+/* added padding for h3 */
+
 h3 {
   font-weight: 400;
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-align: center;
-  padding: 0.8rem;
+  padding: 4.8rem 0 4.8rem 0;
 }
 
 p {
@@ -153,6 +170,12 @@ p {
   color: #373737;
 }
 
+/* added padding for icon heading*/
+
+.icons-heading {
+  padding: 0 0 2rem 0;
+}
+
 .container {
   padding: 1rem 9%;
   margin-top: 2rem;
@@ -202,6 +225,12 @@ p {
   background: #c8dff3;
 }
 
+/* added margin for contact heading*/
+
+.contact-heading {
+  margin-top: 4.8rem;
+}
+
 input,
 textarea,
 input::-webkit-input-placeholder {
@@ -229,8 +258,7 @@ body{
   background: #fff;
   margin-top: 10%;
   margin-bottom: 5%;
-  width: 70%;
-}
+  width: 70%
 .contact-form .form-control{
   border-radius:1rem;
 }
@@ -274,30 +302,51 @@ body{
   background-color: #0062cc;
   border: none;
   cursor: pointer;
+
+
+input[type="submit"]:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.4s;
+  border: solid 0.11rem #63b5ff;
+  color: #000000;
+
 }
 
-@media (max-width: 1000px){
-  #btn a{
+@media (max-width: 1000px) {
+  #btn a {
     font-size: 1.5rem;
     padding: 0.45rem 1.2rem;
   }
 }
 
-@media (max-width:768px){
-  #btn a{
+@media (max-width: 768px) {
+  #btn a {
     font-size: 1.4rem;
     padding: 0.35rem 1rem;
   }
 }
 
+
 @media (max-width: 600px) {
 
+
+=======
+@media (max-width: 650px) {
+  .nav-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-area > .right-nav {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media (max-width: 600px) {
 
   #landing {
     display: flex;
     flex-direction: column;
   }
-
 
   #btn a {
     font-size: 1.3rem;
@@ -311,13 +360,11 @@ body{
     margin: 0.6rem 9%;
   }
 
-
-
   input[type="submit"]:hover {
     background-color: rgb(255, 255, 255);
-    color: #63B5FF;
+    color: #63b5ff;
     transition: 0.4s;
-    border: solid 0.11rem #63B5FF;
+    border: solid 0.11rem #63b5ff;
   }
 
   body {
@@ -337,7 +384,6 @@ body{
     background-color: #ffffff;
   }
 
-
   #landing {
     display: flex;
     flex-direction: column;
@@ -351,25 +397,21 @@ body{
     font-size: 1.4rem;
   }
 
-
-
   input[type="submit"] {
     margin: 1rem 20%;
   }
-
 }
 
-@media (min-width: 992px){
-  
+@media (min-width: 992px) {
   .hero-img {
-    margin-top:10em;
+    margin-top: 10em;
   }
 }
 
 .landing-div {
-height: 100vh;
+  height: 100vh;
 }
 
-label{
+label {
   float: left;
 }

@@ -247,6 +247,20 @@ input[type="submit"]:hover {
   border: solid 0.11rem #63b5ff;
 }
 
+@media (max-width: 1000px){
+  #btn a{
+    font-size: 1.5rem;
+    padding: 0.45rem 1.2rem;
+  }
+}
+
+@media (max-width:768px){
+  #btn a{
+    font-size: 1.4rem;
+    padding: 0.35rem 1rem;
+  }
+}
+
 @media (max-width: 600px) {
 
 
@@ -256,8 +270,9 @@ input[type="submit"]:hover {
   }
 
 
-  #btn {
-    display: none;
+  #btn a {
+    font-size: 1.3rem;
+    padding: 0.3rem 0.85rem;
   }
 
   .container .section {

@@ -321,3 +321,7 @@ input[type="submit"]:hover {
     margin-top:10em;
   }
 }
+
+.landing-div {
+height: 100vh;
+}

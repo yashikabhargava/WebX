@@ -2,31 +2,17 @@
 # WebX: A streamlined website
 
 WebX is a streamlined website which focuses on providing various free frontend web development tools and inspiration all at one place.
+## You can Have a look at website [**here**](https://yashikabhargava.github.io/WebX/)
 
-# Link
-Live Site URL: [**here**](https://yashikabhargava.github.io/WebX/)
-
-## Run Locally
-
-(1) Clone the project
-
-
-```bash
-  git clone https://github.com/yashikabhargava/WebX
-```
-
-(2) Run the index.html file on your local server
-
-
-(3) Start the server
-
-  
 ## Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+
+# Contribution is fun! :green_heart:
+
+In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the [Code of Conduct](https://github.com/yashikabhargava/WebX/blob/main/CODE_OF_CONDUCT.md) and read the [contribution guidelines].(https://github.com/yashikabhargava/WebX/blob/main/Contributing.md)
+
+Happy Submissions :slightly_smiling_face:
   
 ## Screenshots of the working Application
 
@@ -49,13 +35,13 @@ Live Site URL: [**here**](https://yashikabhargava.github.io/WebX/)
 
 ### This repository aims to help code beginners with their first successful pull request and open-source contribution. :partying_face:
 
-:star: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
+:star: Feel free to use this project to make your first contribution to an open-source project on GitHub.
 
 :star: Make sure to grab some cool swags during Hacktoberfest by getting involved in the open-source community.
 
-### This repository is open to all members of the GitHub community. Any member can contribute to this project! The only thing which you need to keep in mind is that it should be genuine PR :grin:
+### This repository is open to all members of the GitHub community. Any member can contribute to this project! The only thing which you need to keep in mind is that it should be genuine PR.
 
-## What is Hacktoberfest? :thinking:
+## What is Hacktoberfest?
 A month-long celebration from October 1st to October 31st presented by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [DEV Community](https://dev.to/) collaborated with [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
 
 [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)

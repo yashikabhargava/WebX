@@ -13,11 +13,7 @@ Here is a complete guide to get you started with your Open Source contribution.
 5. [Push]() all changes to your forked version on GitHub/GitLab.
 6. GitHub/GitLab tracks your push records and now its time for you to [Create a Pull request.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-**NOTE:**
-- Please raise an issue before opening a PR.
-- Don't start working on an issue until it has been assigned to you.
-- Please use our PR template provided to open a new Pull request.
-- If you are raising an issue under hacktoberfest then please mention it in the issue.
+**NOTE:** Please use our PR template provided to open a new PR.
 
 
 ## Tutorials (for better understanding):-

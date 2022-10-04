@@ -20,6 +20,21 @@ body {
   height: auto;
 }
 
+/* added scrollbar design */
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f042;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.625rem;
+  background: #63b5ff;
+}
+
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
@@ -38,13 +53,15 @@ h2 {
   text-align: center;
 }
 
+/* added padding for h3 */
+
 h3 {
   font-weight: 400;
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-align: center;
-  padding: 0.8rem;
+  padding: 4.8rem 0 4.8rem 0;
 }
 
 p {
@@ -87,9 +104,10 @@ p {
 }
 
 .nav-area .right-nav a:hover {
-  color: #63b5ff;
-  background-color: #1c1c1c;
+  color: #000;
+  background-color: rgba(99, 181, 255, 1);
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 #landing {
@@ -153,6 +171,12 @@ p {
   color: #373737;
 }
 
+/* added padding for icon heading*/
+
+.icons-heading {
+  padding: 0 0 2rem 0;
+}
+
 .container {
   padding: 1rem 9%;
   margin-top: 2rem;
@@ -170,7 +194,7 @@ p {
   height: 20rem;
   display: flex;
   flex-direction: column;
-
+  transition: transform .2s;
   box-shadow: 3.4px 3.4px 2.2px -7px rgba(0, 0, 0, 0.022),
     8.7px 8.7px 5.5px -7px rgba(0, 0, 0, 0.031),
     17.7px 17.7px 11.2px -7px rgba(0, 0, 0, 0.039),
@@ -180,7 +204,11 @@ p {
 
 .container .section .box:hover {
   opacity: 0.8;
-  transform: scale(1);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .container .section .box img {
@@ -200,6 +228,12 @@ p {
   padding: 1.5rem;
   margin: 1rem 9%;
   background: #c8dff3;
+}
+
+/* added margin for contact heading*/
+
+.contact-heading {
+  margin-top: 4.8rem;
 }
 
 input,
@@ -240,37 +274,42 @@ input[type="submit"] {
     100px 100px 80px rgba(0, 0, 0, 0.08);
 }
 
-
 input[type="submit"]:hover {
   background-color: rgb(255, 255, 255);
   transition: 0.4s;
   border: solid 0.11rem #63b5ff;
   color: #000000;
-  
 }
 
-@media (max-width: 1000px){
-  #btn a{
+@media (max-width: 1000px) {
+  #btn a {
     font-size: 1.5rem;
     padding: 0.45rem 1.2rem;
   }
 }
 
-@media (max-width:768px){
-  #btn a{
+@media (max-width: 768px) {
+  #btn a {
     font-size: 1.4rem;
     padding: 0.35rem 1rem;
   }
 }
 
+@media (max-width: 650px) {
+  .nav-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-area > .right-nav {
+    padding: 0px;
+    margin: 0px;
+  }
+}
 @media (max-width: 600px) {
-
-
   #landing {
     display: flex;
     flex-direction: column;
   }
-
 
   #btn a {
     font-size: 1.3rem;
@@ -284,13 +323,11 @@ input[type="submit"]:hover {
     margin: 0.6rem 9%;
   }
 
-
-
   input[type="submit"]:hover {
     background-color: rgb(255, 255, 255);
-    color: #63B5FF;
+    color: #63b5ff;
     transition: 0.4s;
-    border: solid 0.11rem #63B5FF;
+    border: solid 0.11rem #63b5ff;
   }
 
   body {
@@ -310,7 +347,6 @@ input[type="submit"]:hover {
     background-color: #ffffff;
   }
 
-
   #landing {
     display: flex;
     flex-direction: column;
@@ -324,25 +360,21 @@ input[type="submit"]:hover {
     font-size: 1.4rem;
   }
 
-
-
   input[type="submit"] {
     margin: 1rem 20%;
   }
-
 }
 
-@media (min-width: 992px){
-  
+@media (min-width: 992px) {
   .hero-img {
-    margin-top:10em;
+    margin-top: 10em;
   }
 }
 
 .landing-div {
-height: 100vh;
+  height: 100vh;
 }
 
-label{
+label {
   float: left;
 }

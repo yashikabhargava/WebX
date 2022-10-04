@@ -87,6 +87,33 @@ p {
   font-family: "Zen Kurenaido", sans-serif;
   font-weight: 500;
 }
+@keyframes example {
+    0%   { background-image: url("https://i.gifer.com/Ozs.gif"); left:0px; top:0px;}
+    25%     {
+       
+        background-image: url("https://i.gifer.com/Ozs.gif"); left:200px; top:0px;}
+ 50%  {background-image: url("https://cdn.dribbble.com/users/1618925/screenshots/4048644/globe.gif"); left:400px; top:200px;}
+    75%  {background-image: url("https://images.squarespace-cdn.com/content/v1/572f8a5622482e952ab4082a/1485326421028-07VP82EDRDIIK1EJR6A0/donut-planet.gif?format=1500w"); left:0px; top:200px;}
+    100% {
+           transform: rotate(360deg);
+         
+        background-image: url("https://i.pinimg.com/originals/52/7b/a5/527ba5513a72f1d28fa780a14d6511fd.gif"); left:0px; top:500px;}
+
+  }
+.nav-area .left-nav a:hover {
+    float: left;
+    color: #63b5ff;
+    animation-name: example;
+  animation-duration: 5s;
+  animation-direction: reverse; 
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0rem 5rem;
+    font-size: 2.5rem;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 900;
+  }
 
 .nav-area .right-nav {
   margin-right: 4rem;
@@ -102,6 +129,7 @@ p {
   font: 1.5rem;
   font-weight: 400;
 }
+
 
 .nav-area .right-nav a:hover {
   color: #000;

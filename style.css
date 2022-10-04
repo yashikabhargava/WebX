@@ -378,3 +378,30 @@ input[type="submit"]:hover {
 label {
   float: left;
 }
+.fa {
+  padding: 15px;
+  font-size: 60px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}

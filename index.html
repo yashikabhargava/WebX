@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>WebX</title>
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" style="background:rgb(0, 48, 82);">
         
         <div class="nav-area navbar">
             <div class="left-nav">
@@ -25,6 +28,11 @@
                     <a href="#resource" class="w3-bar-item w3-button">Resources</a>
                     <a href="#header" class="home">Home</a>
                 </div>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </header>
@@ -550,9 +558,49 @@
         </div>
     </main>
 
-    <footer>
-        <p>Copyright © 2022 <strong>WebX.</strong> All Rights Reserved</p>
-    </footer>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-6 item text">
+                        <h4 style="text-align:center;">WebX</h4>
+                        <p>Provides you the best resources for learning Web Development and Designing for free</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p style="color:white; font-size: medium;" class="copyright">Copyright © 2022 <strong>WebX.</strong> All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".right-nav");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+
+        const navLink = document.querySelectorAll(".bar-btn");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    </script>
     
 </body>
 </html>

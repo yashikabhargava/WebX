@@ -378,6 +378,7 @@ input[type="submit"]:hover {
 label {
   float: left;
 }
+<<<<<<< HEAD
 .fa {
   padding: 15px;
   font-size: 60px;
@@ -404,4 +405,76 @@ label {
 .fa-github {
   background: black;
   color: white;
+=======
+
+.togglebtn{
+  position: absolute;
+  bottom: 2.2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+.checkbox {
+  opacity: 0;
+  position: relative;
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color:rgb(15, 14, 14);
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: fixed;
+  left: 10px;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+  
+}
+
+body.dark {
+  background-color: #292c35;
+  color: #fff;
+}
+
+body.dark .nav-area .right-nav a {
+  color: #fff;
+}
+
+body.dark .nav-area .right-nav a:hover {
+  background-color: #fafbfc;
+  color: #000;
+}
+
+body.dark .container .section .box{
+  color: #fff;
+}
+body.dark .container .inner-heading{
+  color: #fff;
+>>>>>>> 3f853c320617b3eb08b3b91efb00efb05d64b19f
 }

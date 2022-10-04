@@ -378,7 +378,6 @@ input[type="submit"]:hover {
 label {
   float: left;
 }
-<<<<<<< HEAD
 .fa {
   padding: 15px;
   font-size: 60px;
@@ -405,8 +404,7 @@ label {
 .fa-github {
   background: black;
   color: white;
-=======
-
+}
 .togglebtn{
   position: absolute;
   bottom: 2.2rem;
@@ -476,5 +474,4 @@ body.dark .container .section .box{
 }
 body.dark .container .inner-heading{
   color: #fff;
->>>>>>> 3f853c320617b3eb08b3b91efb00efb05d64b19f
 }

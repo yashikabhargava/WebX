@@ -378,6 +378,34 @@ input[type="submit"]:hover {
 label {
   float: left;
 }
+<<<<<<< HEAD
+.fa {
+  padding: 15px;
+  font-size: 60px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+=======
 
 .togglebtn{
   position: absolute;
@@ -448,4 +476,5 @@ body.dark .container .section .box{
 }
 body.dark .container .inner-heading{
   color: #fff;
+>>>>>>> 3f853c320617b3eb08b3b91efb00efb05d64b19f
 }

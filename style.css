@@ -108,7 +108,7 @@ p {
   background-color: rgba(99, 181, 255, 1);
   transition: 0.5s;
   border-radius: 10px;
-  box-shadow: rgb(5, 126, 233) 0px 150px 80px -10px;
+  
 }
 
 #landing {
@@ -494,7 +494,7 @@ body.dark .nav-area .right-nav a {
 body.dark .nav-area .right-nav a:hover {
   background-color: #63b5ff;
   color: rgb(255, 255, 255);
-  box-shadow: rgb(3, 174, 241) 0px 150px 80px -10px;
+ 
 }
 
 body.dark .container .section .box{

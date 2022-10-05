@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    overflow-y: hidden;
+}
+.nav{
+    background-color: black;
+    color: white;
+    height: 16vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    overflow-y: hidden;
+    position: relative;
+    left: 500px;
+    bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+a:hover{
+    color: rgb(18, 159, 18);
+}
+img{
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    top: 8px;
+}
+
+.box{
+    background-image: url("sback.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.head{
+    color: white;
+    text-align: center;
+    padding: 125px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.subhead{
+    color: white;
+    text-align: center;
+   position: relative;
+   bottom: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+input[type="submit"]{
+    background-color: white;
+    padding: 18px;
+    position: relative;
+    left: 550px;
+    bottom: 20px;
+    border: 1px solid white;
+    border-radius: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    width: 200px;
+
+}
+input[type="submit"]:hover{
+   width: 210px;
+   padding: 20px;
+}
+
+

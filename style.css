@@ -72,7 +72,7 @@ p {
 }
 
 .nav-area {
-  overflow: hidden;
+
   padding: 1rem;
 }
 
@@ -108,6 +108,7 @@ p {
   background-color: rgba(99, 181, 255, 1);
   transition: 0.5s;
   border-radius: 10px;
+  box-shadow: rgb(5, 126, 233) 0px 150px 80px -10px;
 }
 
 #landing {
@@ -454,6 +455,32 @@ label {
   color: yellow;
   
 }
+@keyframes example {
+  
+  100% {
+        
+         transform: rotate(360deg);
+        
+      }
+
+}
+.nav-area .left-nav a:hover {
+  overflow: auto;
+  float: left;
+  color: #63b5ff;
+  animation-name: example;
+animation-duration: 1s;
+animation-direction:alternate-reverse; 
+  text-decoration: none;
+  display: block;
+  
+  text-align: center;
+  padding: 0rem 1rem;
+  font-size: 2.5rem;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 500;
+  box-shadow: rgba(9, 134, 236, 0.4) 5px 5px, rgba(19, 143, 226, 0.3) 10px 10px, rgba(46, 162, 240, 0.2) 15px 15px, rgba(20, 132, 223, 0.1) 20px 20px, rgba(13, 119, 218, 0.05) 25px 25px;
+}
 
 body.dark {
   background-color: #292c35;
@@ -461,12 +488,13 @@ body.dark {
 }
 
 body.dark .nav-area .right-nav a {
-  color: #fff;
+  color:#63b5ff;
 }
 
 body.dark .nav-area .right-nav a:hover {
-  background-color: #fafbfc;
-  color: #000;
+  background-color: #63b5ff;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(3, 174, 241) 0px 150px 80px -10px;
 }
 
 body.dark .container .section .box{
@@ -474,4 +502,19 @@ body.dark .container .section .box{
 }
 body.dark .container .inner-heading{
   color: #fff;
+}
+
+
+body.dark #btn a {
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  color: #fcfcfc;
+  font-size: 1.6rem;
+  padding: 0.6rem 1.7rem;
+  border: solid 0.1rem #63b5ff;
+}
+
+body.dark #btn a:hover {
+  background-color: #63b5ff;
+  color: #000000;
 }

@@ -532,7 +532,7 @@ body.dark .container .inner-heading {
  height: var(--cd-back-to-top-size);
  width: 40px;
  width: var(--cd-back-to-top-size);
- box-shadow: 0 0 10px rgba(0,0,0,.05) !important;
+ box-shadow: 0 0 10px rgba(0,0,0,.05);
  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
  background-color: hsla(5,76%,62%,.8);
  background-color: hsla(var(--cd-color-3-h),var(--cd-color-3-s),var(--cd-color-3-l),0.8);

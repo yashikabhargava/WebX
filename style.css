@@ -100,7 +100,7 @@ p {
   margin-right: -0.8rem;
 }
 .nav-area .right-nav a:hover {
-  background-color: #ffffff;
+  background-color: #63b5ff;
 }
 .nav-area .right-nav {
   margin-right: 6rem;
@@ -122,7 +122,7 @@ p {
 }
 .nav-area .right-nav a:hover {
   color: #032e47;
-  background-color: #cfe5ff;
+  background-color: #63b5ff;
   border-radius: 2.5rem; 
   font-weight: 800;
   color: #000;

@@ -70,12 +70,6 @@ p {
   margin-right: 1rem;
   margin-top: 1rem;
 }
-
-.nav-area {
-  overflow: hidden;
-  padding: 1rem;
-}
-
 .nav-area .left-nav a {
   float: left;
   color: #63b5ff;
@@ -87,27 +81,56 @@ p {
   font-family: "Zen Kurenaido", sans-serif;
   font-weight: 500;
 }
-
 .nav-area .right-nav {
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 
-.nav-area .right-nav a {
-  float: right;
-  color: #161616;
-  text-decoration: none;
-  display: block;
+.right-nav div, .right-nav a {
+  float: left;
+  font-size: 16px;
+  color: black;
   text-align: center;
-  padding: 1.4rem 1.4rem;
-  font: 1.5rem;
-  font-weight: 400;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius:10px;
 }
-
-.nav-area .right-nav a:hover {
+.nav-area .right-nav div a:hover {
   color: #000;
   background-color: rgba(99, 181, 255, 1);
   transition: 0.5s;
   border-radius: 10px;
+}
+#dropdownMenuButton1{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  border-radius:10px;
+  padding: 5px 15px;
+  background-color: transparent !important;
+  font-family: inherit;
+ 
+}
+.dropdown-menu {
+  border-radius:10px;
+  position: absolute;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 0;
+  outline: 0;
+  display: block;
+  text-align: left;
+  
+}
+.dropdown-menu a {
+  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover {
+  background-color: rgba(99, 181, 255, 1);
 }
 
 #landing {
@@ -465,7 +488,7 @@ body.dark .nav-area .right-nav a {
 }
 
 body.dark .nav-area .right-nav a:hover {
-  background-color: #fafbfc;
+  background-color: rgba(99, 181, 255, 1);
   color: #000;
 }
 
@@ -475,3 +498,19 @@ body.dark .container .section .box{
 body.dark .container .inner-heading{
   color: #fff;
 }
+body.dark .dropdown:hover {
+  background-color: rgba(99, 181, 255, 1) !important;
+  color: #000;
+  
+}
+body.dark .dropdown #dropdownMenuButton1{
+  background-color: #292c35;
+  color: #fff;
+}
+body.dark .dropdown-menu{
+  background-color: #292c35;
+  color: #fff ;
+}
+
+
+

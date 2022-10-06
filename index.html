@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,50 @@
 
     <link rel="icon" type="image/png" href="img\favicon.png">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://css.gg/chevron-down.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous"></script>
     <title>WebX</title>
     <!--For Share Buttons-->
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=633ac625c2af2800193d4b78&product=sticky-share-buttons" async="async"></script>
+    <script type="text/javascript"src="https://platform-api.sharethis.com/js/sharethis.js#property=633ac625c2af2800193d4b78&product=sticky-share-buttons"async="async"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- scrollReveal library cdn -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    
-   
+
+
 </head>
+
 <body>
 
     <header class="header">
-        
+
         <div class="nav-area navbar">
             <div class="left-nav">
                 <a href="#header">WebX.</a>
-            </div>  
-      
+            </div>
+
             <div class="right-nav">
-                <div class="bar-btn">
-                   <a href="#contact-us" class="w3-bar-item w3-button">Contact</a> 
-                    <a href="#resource" class="w3-bar-item w3-button">Resources</a>
-                    <a href="#header" class="home">Home</a>
+                <div class="link">
+                    <a href="#home">Home</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#icons">Icons</a></li>
+                        <li><a class="dropdown-item" href="#ui">UI Illustration</a></li>
+                        <li><a class="dropdown-item" href="#cssgenerators">CSS Generators</a></li>
+                        <li><a class="dropdown-item" href="#photos">Stock Photos</a></li>
+                        <li><a class="dropdown-item" href="#webdesign">Web Design Inspiration</a></li>
+                        <li><a class="dropdown-item" href="#fonts">Fonts and Typography</a></li>
+                        <li><a class="dropdown-item" href="#colors">Colors</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <a href="#contact-us">Contact</a>
                 </div>
             </div>
         </div>
@@ -41,15 +60,15 @@
 
     <section id="landing">
         <div class="row m-0 landing-div">
-        <div id ="landing-text" class="col-lg-6 col-md-12 col-sm-12">
-            <h1 id="landing-text-1">Some Free Resources</h1>
-            <h2 id="landing-text-2">for your next web development project</h2>
-            <button id="btn"><a href="#resource">Get Started</a></button>
+            <div id="landing-text" class="col-lg-6 col-md-12 col-sm-12">
+                <h1 id="landing-text-1">Some Free Resources</h1>
+                <h2 id="landing-text-2">for your next web development project</h2>
+                <button id="btn"><a href="#resource">Get Started</a></button>
+            </div>
+            <div id="landing-img" class="col-lg-6 col-md-12 col-sm-12">
+                <img src="img/landing-img.svg" alt="a woman with computer" class="p-1 hero-img img img-fluid">
+            </div>
         </div>
-        <div id="landing-img" class="col-lg-6 col-md-12 col-sm-12">
-            <img src="img/landing-img.svg" alt="a woman with computer" class="p-1 hero-img img img-fluid">
-        </div>
-    </div>
     </section>
 
     <main>
@@ -61,16 +80,16 @@
 
             <div class="container">
 
-                <div class ="inner-heading">
+                <div class="inner-heading" id="icons">
                     <!-- added class for 1st heading -->
                     <h3 class="icons-heading">for Icons</h3>
                 </div>
-               
+
                 <div class="section">
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://css.gg/?s=08">
-                            
+
                             <img src="img//Icons/img1.PNG" alt="">
                             <p>
                                 This website provides open-source CSS, SVG and Figma.
@@ -78,9 +97,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://fontawesome.com/">
-                            
+
                             <img src="img/Icons/img2.png" alt="">
                             <p>
                                 Get vector icons and social logos on your website.
@@ -88,9 +107,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://www.flaticon.com/">
-                            
+
                             <img src="img/Icons/img3.jpg" alt="">
                             <p>
                                 Get 5.7M+ vector icons & stickers from here.
@@ -98,9 +117,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://thenounproject.com/">
-                            
+
                             <img src="img/Icons/img4.jpg" alt="">
                             <p>
                                 Features the most diverse collection of icons and stock photos.
@@ -108,9 +127,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://erikflowers.github.io/weather-icons/">
-                            
+
                             <img src="img/Icons/img5.jpg" alt="">
                             <p>
                                 Get 222 Weather Themed Icons and CSS from here.
@@ -118,9 +137,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://cssicon.space/#/">
-                            
+
                             <img src="img/Icons/img6.jpg" alt="">
                             <p>
                                 This website provides icons made with pure CSS.
@@ -128,9 +147,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://heroicons.com/">
-                            
+
                             <img src="img/Icons/img7.png" alt="">
                             <p>
                                 A place to find svg icons for your CSS.
@@ -138,9 +157,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://ionic.io/ionicons">
-                            
+
                             <img src="img/Icons/img8.png" alt="">
                             <p>
                                 A place to find clean and short svg icons for your CSS.
@@ -151,25 +170,25 @@
 
                 </div>
 
-                <div class ="inner-heading">
+                <div class="inner-heading" id="ui">
                     <h3>for UI Illustrations</h3>
                 </div>
-               
+
                 <div class="section">
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://undraw.co/">
-                            
+
                             <img src="img//UI Ilustrations/UnDRAW.jpg" alt="UnDRAW icon">
                             <p>
-                               Get Open-source illustrations for any idea.
+                                Get Open-source illustrations for any idea.
                             </p>
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://drawkit.com/">
-                            
+
                             <img src="img//UI Ilustrations/drawKIT.jpg" alt="drawKIT icon">
                             <p>
                                 Hand-drawn vector illustration and icon resources, perfect for your next project.
@@ -177,9 +196,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://www.opendoodles.com/">
-                            
+
                             <img src="img//UI Ilustrations/opendoodles.jpg" alt="opendoodles icon">
                             <p>
                                 A Free Set of Open-Source Illustrations which you can edit.
@@ -187,9 +206,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://avataaars.com/">
-                            
+
                             <img src="img//UI Ilustrations/Avataars.jpg" alt="avataaars icon">
                             <p>
                                 Get avatars created on Sketch App.
@@ -197,37 +216,39 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="http://www.heropatterns.com/">
-                            
+
                             <img src="img//UI Ilustrations/Hero Patterns.jpg" alt="Hero Patterns">
                             <p>
-                                This website contains collection of repeatable SVG background patterns for you to use on your web projects.
+                                This website contains collection of repeatable SVG background patterns for you to use on
+                                your web projects.
                             </p>
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/YA3PbfOu6D?amp=1">
-                            
+
                             <img src="img//UI Ilustrations/cooltext.jpg" alt="cooltext">
                             <p>
-                                FREE graphics generator for web pages and anywhere else you need an impressive logo without a lot of design work.
+                                FREE graphics generator for web pages and anywhere else you need an impressive logo
+                                without a lot of design work.
                             </p>
                         </a>
                     </div>
 
                 </div>
 
-                <div class ="inner-heading">
+                <div class="inner-heading" id="cssgenerators">
                     <h3>for CSS Generators</h3>
                 </div>
-               
+
                 <div class="section">
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/Vd7qRYCu4F?amp=1">
-                            
+
                             <img src="img//CSS Generators/Paaatterns.jpg" alt="Paaatterns icon">
                             <p>
                                 Generate patterns for you website using this tool.
@@ -235,9 +256,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="">
-                            
+
                             <img src="img//CSS Generators/animista.jpg" alt="animista icon">
                             <p>
                                 Generate CSS Animations using this tool.
@@ -245,9 +266,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/wUO7veuBaC?amp=1">
-                            
+
                             <img src="img//CSS Generators/FontJoy.jpg" alt="FontJoy icon">
                             <p>
                                 Generate Awesome font pairings with AI.
@@ -255,19 +276,19 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://neumorphism.io/#e0e0e0">
-                            
+
                             <img src="img//CSS Generators/Neuro.jpg" alt="neuromorphism icon">
                             <p>
-                                Generate Neumorphism UI using this generator tool. 
+                                Generate Neumorphism UI using this generator tool.
                             </p>
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/wh9MUMt5TH?amp=1">
-                            
+
                             <img src="img//CSS Generators/CSS duotones.jpg" alt="CSS duotones icon">
                             <p>
                                 Generate CSS Duotones effect using this.
@@ -275,9 +296,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/gDsqG2TA5H?amp=1">
-                            
+
                             <img src="img//CSS Generators/CSS_triangle_generator.jpg" alt="CSS_triangle_generator icon">
                             <p>
                                 Generate Triangle Shapes using this tool.
@@ -287,15 +308,15 @@
 
                 </div>
 
-                <div class ="inner-heading">
+                <div class="inner-heading" id="photos">
                     <h3>for stock photos</h3>
                 </div>
-               
+
                 <div class="section">
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://unsplash.com/">
-                            
+
                             <img src="img/Stock Photos/img1.jpg" alt="">
                             <p>
                                 The internet’s source of freely-usable images.
@@ -303,9 +324,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://picjumbo.com/">
-                            
+
                             <img src="img/Stock Photos/img2.jpg" alt="">
                             <p>
                                 Free stock photos, backgrounds for personal and commercial use.
@@ -313,9 +334,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://generated.photos/">
-                            
+
                             <img src="img/Stock Photos/img3.png" alt="">
                             <p>
                                 Enhance your creative works with photos generated completely by AI.
@@ -323,9 +344,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://www.videezy.com/">
-                            
+
                             <img src="img/Stock Photos/img4.jpg" alt="">
                             <p>
                                 Free HD Stock Video Footage for your next project.
@@ -333,19 +354,19 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://www.pexels.com/">
-                            
+
                             <img src="img/Stock Photos/img5.jpg" alt="">
                             <p>
-                                 Free stock photos, royalty free images & videos shared by creators.
+                                Free stock photos, royalty free images & videos shared by creators.
                             </p>
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://www.lifeofvids.com/">
-                            
+
                             <img src="img/Stock Photos/img6.jpg" alt="">
                             <p>
                                 This website provides Free Videos, Clips & Loops.
@@ -355,15 +376,15 @@
 
                 </div>
 
-                <div class ="inner-heading">
+                <div class="inner-heading" id="webdesign">
                     <h3>For Web Design Inspirations</h3>
                 </div>
-               
+
                 <div class="section">
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/ozQWnDxUHc?amp=1">
-                            
+
                             <img src="img//Web design inspiration/design.jpg" alt="Design_your_Way icon">
                             <p>
                                 Design Your Way
@@ -371,9 +392,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/JCV0jObH2a?amp=1">
-                            
+
                             <img src="img//Web design inspiration/site.jpg" alt="siteinspire icon">
                             <p>
                                 7000+ websites and web designs to inspire you.
@@ -381,9 +402,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/GLnWb4wBkT?amp=1">
-                            
+
                             <img src="img//Web design inspiration/Saas.jpg" alt="icon">
                             <p>
                                 Get ideas and inspiration for your next design project created by top class companies.
@@ -391,9 +412,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://land-book.com/">
-                            
+
                             <img src="img//Web design inspiration/LandBook.jpg" alt="LandBook icon">
                             <p>
                                 This website contains large collection of websites to find inspiration.
@@ -401,9 +422,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://www.awwwards.com/">
-                            
+
                             <img src="img//Web design inspiration/awwwards.jpg" alt="awwwards icon">
                             <p>
                                 Get inspired from the award winning websites.
@@ -411,9 +432,9 @@
                         </a>
                     </div>
 
-                    <div class ="box">
+                    <div class="box">
                         <a href="https://t.co/3rLtEFVsAG?amp=1">
-                            
+
                             <img src="img//Web design inspiration/dribbble.jpg" alt="dribbble icon">
                             <p>
                                 Get inspired from best designs here.
@@ -423,7 +444,7 @@
 
                 </div>
 
-                <div class="inner-heading">
+                <div class="inner-heading" id="fonts">
                     <h3>Fonts and Typography Tools</h3>
                 </div>
 
@@ -471,7 +492,7 @@
 
                 </div>
 
-                <div class="inner-heading">
+                <div class="inner-heading" id="colors">
                     <h3>GREAT COLORS TOOLS</h3>
                 </div>
 
@@ -482,11 +503,12 @@
 
                             <img src="img/Great Colors/img-1.png" alt="Flat UI color" />
                             <p>
-                                A set of great colors are on your command for COPY / PASTE for your next project, design, presentation.
+                                A set of great colors are on your command for COPY / PASTE for your next project,
+                                design, presentation.
                             </p>
                         </a>
                     </div>
-                    
+
                     <div class="box">
                         <a href="https://www.materialpalette.com/">
 
@@ -496,7 +518,7 @@
                             </p>
                         </a>
                     </div>
-                    
+
                     <div class="box">
                         <a href="https://www.colorhunt.co/">
 
@@ -506,17 +528,18 @@
                             </p>
                         </a>
                     </div>
-                    
+
                     <div class="box">
                         <a href="https://uigradients.com/">
 
                             <img src="img/Great Colors/img-4.png" alt="UI gradients">
                             <p>
-                                Simple and awesome color picker. Contains all best color combinations you need for your project.
+                                Simple and awesome color picker. Contains all best color combinations you need for your
+                                project.
                             </p>
                         </a>
                     </div>
-                    
+
                     <div class="box">
                         <a href="https://coolors.co/">
 
@@ -526,7 +549,7 @@
                             </p>
                         </a>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -543,18 +566,20 @@
                 <div class="form-content">
                     <p>
                         <label for="name"> <b>Name: </b></label>
-                       <input type="text" name="name" required placeholder="Your Name">
+                        <input type="text" name="name" required placeholder="Your Name">
                     </p>
 
-                   <p>
-                    <label for="email"> <b>Email:</b></label>
-                       <input type="email" name="email" id="email"  placeholder="abc@example.com">
+                    <p>
+                        <label for="email"> <b>Email:</b></label>
+                        <input type="email" name="email" id="email" placeholder="abc@example.com">
                     </p>
 
-                   <p>
-                     <label for="message"> <b>Message: </b> </label>
-                    <textarea name="message" id="message" cols="100" rows="10" placeholder="Enter your message here"></textarea></p>
-                   <input type="submit" value="SUBMIT">
+                    <p>
+                        <label for="message"> <b>Message: </b> </label>
+                        <textarea name="message" id="message" cols="100" rows="10"
+                            placeholder="Enter your message here"></textarea>
+                    </p>
+                    <input type="submit" value="SUBMIT">
                 </div>
             </form>
 
@@ -564,14 +589,17 @@
     <footer>
         <!--For share Buttons -->
         <div class="sharethis-sticky-share-buttons"></div>
-        <div><h2>Follow Us</h2></div>
+        <div>
+            <h2>Follow Us</h2>
+        </div>
         <!--Follow Us buttons -->
         <div style="text-align: center; margin-bottom: 10px;">
-            <a href="#" class="fa fa-linkedin"></a> <!--Add your Linkedin-->
+            <a href="#" class="fa fa-linkedin"></a>
+            <!--Add your Linkedin-->
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-github"></a>
             <!-- <a href="#" class="fa fa-hashnode"></a> -->
-        <!--Follow us button ENd-->
+            <!--Follow us button ENd-->
         </div>
         <p>Copyright © 2022 <strong>WebX.</strong> All Rights Reserved</p>
     </footer>
@@ -579,18 +607,19 @@
     <div class="togglebtn">
         <input type="checkbox" class="checkbox" id="checkbox">
         <label for="checkbox" class="label">
-        <i class="fas fa-moon"></i>
-        <i class='fas fa-sun'></i>
-        <div class='ball'>
-      </label>
+            <i class="fas fa-moon"></i>
+            <i class='fas fa-sun'></i>
+            <div class='ball'>
+        </label>
     </div>
 
     <script src="main.js"></script>
-        <!-- scroll js  -->
+    <!-- scroll js  -->
     <script type="text/javascript" src="scroll.js"></script>
-    
-    
- 
-    
+
+
+
+
 </body>
+
 </html>

@@ -54,6 +54,9 @@ p {
   margin-right: 1rem;
   margin-top: 1rem;
 }
+.header{
+  background:rgb(0, 48, 82);
+}
 /******************** Navbar ****************************/
 
 .nav-area {

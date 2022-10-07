@@ -1,24 +1,15 @@
-
-ScrollReveal().reveal('.container', {
+ScrollReveal().reveal(".container", {
   scale: 0.85,
   delay: 375,
   duration: 500,
-  reset: false
+  reset: false,
 });
 
-ScrollReveal().reveal('.section', {
+ScrollReveal().reveal(".section", {
   scale: 0.85,
   delay: 375,
   duration: 500,
-  reset: false
+  reset: false,
 });
 
-ScrollReveal().reveal('#contact-us',{scale:0.65});
-
-
-
-
-
-
-
-
+ScrollReveal().reveal("#contact-us", { scale: 0.65 });

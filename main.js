@@ -5,23 +5,21 @@ checkbox.addEventListener('change', ()=>{
 
 })
 
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 20) {
-      $('#toTopBtn').fadeIn();
-    } else {
-      $('#toTopBtn').fadeOut();
-    }
-  });
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".right-nav");
 
-  $('#toTopBtn').click(function() {
-    $("html, body").animate({
-      scrollTop: 0
-    }, 1000);
-    return false;
-  });
-});
-menu.onclick = () => {
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".bar-btn");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
 }

@@ -103,7 +103,13 @@
     </div>
     <p>Copyright © 2022 <strong>WebX.</strong> All Rights Reserved</p>
   </footer>
-  <script src="../src/scripts/main.js"></script>
+  <script>
+    checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
+  document.getElementById("contact-us").classList.toggle("dark");
+});
+  </script>
+  <script src=".src/scripts/main.js"></script>
 </body>
 
 </html>

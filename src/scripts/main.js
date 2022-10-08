@@ -1,27 +1,29 @@
-const checkbox = document.getElementById('checkbox');
+const checkbox = document.getElementById("checkbox");
 
-checkbox.addEventListener('change', ()=>{
-  document.body.classList.toggle('dark');
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
+});
 
-})
-
-$(document).ready(function() {
-  $(window).scroll(function() {
+$(document).ready(function () {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 20) {
-      $('#toTopBtn').fadeIn();
+      $("#toTopBtn").fadeIn();
     } else {
-      $('#toTopBtn').fadeOut();
+      $("#toTopBtn").fadeOut();
     }
   });
 
-  $('#toTopBtn').click(function() {
-    $("html, body").animate({
-      scrollTop: 0
-    }, 1000);
+  $("#toTopBtn").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      1000
+    );
     return false;
   });
 });
 menu.onclick = () => {
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-}
+  menu.classList.toggle("fa-times");
+  navbar.classList.toggle("active");
+};

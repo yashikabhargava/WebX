@@ -1,4 +1,3 @@
-# Add/remove 'critical' label if issue/pr contains the words 'urgent' or 'critical'
 bug:
   - '(bug|error)'
 enhancement:

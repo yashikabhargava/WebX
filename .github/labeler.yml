@@ -1,0 +1,18 @@
+# Add/remove 'critical' label if issue/pr contains the words 'urgent' or 'critical'
+bug:
+  - '(bug|error)'
+enhancement:
+  - '(new feature|request)'
+good first issue:
+  - '(help|issues|update)'
+hacktoberfest-accepted:
+  - '(hacktoberfest-accepted)'
+hacktoberfest:
+  - '(hacktoberfest)'
+help-wanted:
+  - '(help|guidance)'
+dependencies:
+  - '(install|package)'
+critical:
+    - '(critical|urgent)'
+

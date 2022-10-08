@@ -2,6 +2,7 @@ const checkbox = document.getElementById("checkbox");
 
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark");
+  document.getElementById("contact-us").classList.toggle("dark");
 });
 
 $(document).ready(function () {

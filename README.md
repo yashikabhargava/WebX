@@ -16,8 +16,8 @@ Happy Submissions :slightly_smiling_face:
   
 ## Screenshots of the working Application
 
-<img src="img\Screenshot1.jpg"> 
-<img src="img\Screenshot2.jpg">
+<img src="src/img/Screenshot1.jpg"> 
+<img src="src/img/Screenshot2.jpg">
 
  
 # Hacktoberfest-2022🔥

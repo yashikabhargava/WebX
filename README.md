@@ -16,7 +16,7 @@ Happy Submissions :slightly_smiling_face:
   
 ## Screenshots of the working Application
 
-<img src="/img/image1.png"> 
+<img src="./img/image1.png"> 
 <img src="/img/image2.jpg">
 <img src="/img/image3.jpg">
 <img src="/img/image4.jpg">

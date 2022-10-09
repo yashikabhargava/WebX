@@ -71,7 +71,7 @@ p {
   margin-top: 1rem;
 }
 
-.nav-area {
+/* .nav-area {
   padding: 1rem;
 }
 
@@ -107,7 +107,78 @@ p {
   background-color: rgba(99, 181, 255, 1);
   transition: 0.5s;
   border-radius: 10px;
+} */
+
+
+
+
+
+
+
+.nav-area .left-nav a {
+  float: left;
+  color: #63b5ff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0rem 5rem;
+  font-size: 2.5rem;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 500;
 }
+.nav-area .right-nav {
+  margin-right: 2rem;
+}
+
+.right-nav div, .right-nav a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius:10px;
+}
+.nav-area .right-nav div a:hover {
+  color: #000;
+  background-color: rgba(99, 181, 255, 1);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+#dropdownMenuButton1{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  border-radius:10px;
+  padding: 5px 15px;
+  background-color: transparent !important;
+  font-family: inherit;
+ 
+}
+.dropdown-menu {
+  border-radius:10px;
+  position: absolute;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 0;
+  outline: 0;
+  display: block;
+  text-align: left;
+  
+}
+.dropdown-menu a {
+  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover {
+  background-color: rgba(99, 181, 255, 1);
+}
+
+
 
 #landing {
   display: flex;
@@ -510,7 +581,7 @@ label {
     rgba(13, 119, 218, 0.05) 25px 25px;
 }
 
-body.dark {
+body.dark{
   background-color: #292c35;
   color: #fff;
 }
@@ -530,6 +601,21 @@ body.dark .container .section .box {
 body.dark .container .inner-heading {
   color: #fff;
 }
+
+body.dark .dropdown:hover {
+  background-color: rgba(99, 181, 255, 1) !important;
+  color: #000;
+  
+}
+body.dark .dropdown #dropdownMenuButton1{
+  background-color: #292c35;
+  color: #fff;
+}
+body.dark .dropdown-menu{
+  background-color: #292c35;
+  color: #fff ;
+}
+
 /* For Scroll Button*/
 #toTopBtn {
   position: fixed;

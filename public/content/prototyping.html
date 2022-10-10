@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="../../src/styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous"></script>
   <link href="https://css.gg/chevron-down.css" rel="stylesheet">
   <title>WebX</title>
   <!--For Share Buttons-->
@@ -35,34 +34,48 @@
   <header class="header">
     <div class="nav-area navbar">
       <div class="left-nav">
-        <a href="/index.html">WebX.</a>
+        <a href="../index.html">WebX.</a>
       </div>
 
       <div class="right-nav">
-        <div class="link">
-          <a href="/index.html">Home</a>
-      </div>
-      <div class="dropdown">
-          <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Resources
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="./icons.html">Icons</a></li>
-              <li><a class="dropdown-item" href="./ui-illustrations.html">UI Illustration</a></li>
-              <li><a class="dropdown-item" href="./css-generators.html">CSS Generators</a></li>
-              <li><a class="dropdown-item" href="./stock-photos.html">Stock Photos</a></li>
-              <li><a class="dropdown-item" href="./web-design-inspiration.html">Web Design Inspiration</a></li>
-              <li><a class="dropdown-item" href="./fonts.html">Fonts and Typography</a></li>
-              <li><a class="dropdown-item" href="./colors.html">Colors</a></li>
-          </ul>
-      </div>
-      <div class="link">
-          <a href="../contact.html">Contact</a>
+        <div class="bar-btn">
+          <a href="../contact.html" class="w3-bar-item w3-button">Contact</a>
+          <a href="../resources.html" class="w3-bar-item w3-button">Resources</a>
+          <a href="../../index.html" class="home">Home</a>
+        </div>
       </div>
     </div>
   </header>
+  <main>
+    <div class="inner-heading">
+      <h3>For prototyping Tools</h3>
+    </div>
+    <!-- Section for prototyping tools starts -->
+    <div class="section ">
 
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <a class="card card-style " href="https://www.figma.com/" target="_blank">
+            <img class="card-img-top" src="../../src/img/Prototyping-tools/Figma.jpg" alt="Figma">
+            <div class="card-body">
+              <h5 class="card-title">Figma</h5>
+              <p class="card-text">Web prototyping tool</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <a class="card card-style " href="https://penpot.app/" target="_blank">
+            <img class="card-img-top" src="../../src/img/Prototyping-tools/PenPot.jpg" alt="PenPot">
+            <div class="card-body">
+              <h5 class="card-title">PenPot</h5>
+              <p class="card-text">Open source prototyping tool</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Section for prototyping tools ends -->
+  </main>
   <footer>
     <!--For share Buttons -->
     <div class="sharethis-sticky-share-buttons"></div>

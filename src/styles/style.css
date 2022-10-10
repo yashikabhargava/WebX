@@ -581,6 +581,7 @@ label {
     rgba(13, 119, 218, 0.05) 25px 25px;
 }
 
+
 body.dark{
   background-color: #292c35;
   color: #fff;
@@ -670,4 +671,12 @@ body.dark #btn a {
 body.dark #btn a:hover {
   background-color: #63b5ff;
   color: #000000;
+}
+
+div#contact-us.dark{
+  background-color: #d4d4d4;
+}
+
+h3.icons-heading.dark,div.inner-heading.dark{
+  color: white;
 }

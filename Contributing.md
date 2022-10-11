@@ -10,8 +10,8 @@ Here is a complete guide to get you started with your Open Source contribution.
 2. The next step is to [Clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#step-2-create-a-local-clone-of-your-fork) the repository onto your local system.
 3. Make the desired changes.
 4. [Add and Commit](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) the changes.
-5. [Push]() all changes to your forked version on GitHub/GitLab.
-6. GitHub/GitLab tracks your push records and now its time for you to [Create a Pull request.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+5. [Push]() all changes to your forked version on GitHub.
+6. GitHub tracks your push records and now its time for you to [Create a Pull request.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 **NOTE:**
 - Please raise an issue before opening a PR.

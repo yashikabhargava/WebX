@@ -275,6 +275,7 @@ p {
   border: none;
   border-radius: 0;
   height: 360px;
+  padding:10px;
 }
 
 /* image inside card */
@@ -285,11 +286,12 @@ p {
 /* card description */
 .section .card .card-text {
   color: black;
+  
 }
 
 .section .card-style:hover {
-  opacity: 0.8;
-
+ 
+  text-decoration: none;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);

@@ -291,6 +291,7 @@ p {
 
 .section .card-style:hover {
  
+  opacity: 0.8;
   text-decoration: none;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);

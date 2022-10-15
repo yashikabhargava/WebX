@@ -1,222 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../src/img/favicon.png" />
+    <link rel="stylesheet" href="../src/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://css.gg/chevron-down.css" rel="stylesheet" />
+    <title>WebX</title>
+    <!--For Share Buttons-->
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=633ac625c2af2800193d4b78&product=sticky-share-buttons"
+      async="async"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="../src/img/favicon.png">
-  <link rel="stylesheet" href="../src/styles/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous"></script>
-  <link href="https://css.gg/chevron-down.css" rel="stylesheet">
-  <title>WebX</title>
-  <!--For Share Buttons-->
-  <script type="text/javascript"
-    src="https://platform-api.sharethis.com/js/sharethis.js#property=633ac625c2af2800193d4b78&product=sticky-share-buttons"
-    async="async"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- scrollReveal library cdn -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-  <!-- scrollReveal library cdn -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://css.gg/chevron-down.css" rel="stylesheet" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://css.gg/chevron-down.css" rel="stylesheet" />
+  </head>
 
-  <link href="https://css.gg/chevron-down.css" rel="stylesheet">
-</head>
+  <body>
+    <header class="header">
+      <div class="nav-area navbar">
+        <div class="left-nav">
+          <a href="../index.html">WebX.</a>
+        </div>
 
-<body>
-  <header class="header">
-    <div class="nav-area navbar">
-      <div class="left-nav">
-        <a href="./index.html">WebX.</a>
-      </div>
-
-      <div class="right-nav">
-        <div class="link">
-          <a href="../index.html">Home</a>
-      </div>
-      <div class="dropdown">
-          <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1"
-              data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="right-nav">
+          <div class="link">
+            <a href="../index.html">Home</a>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-info dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Resources
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="./content/icons.html">Icons</a></li>
-              <li><a class="dropdown-item" href="./content/ui-illustrations.html">UI Illustration</a></li>
-              <li><a class="dropdown-item" href="./content/css-generators.html">CSS Generators</a></li>
-              <li><a class="dropdown-item" href="./content/stock-photos.html">Stock Photos</a></li>
-              <li><a class="dropdown-item" href="./content/web-design-inspiration.html">Web Design Inspiration</a></li>
-              <li><a class="dropdown-item" href="./content/fonts.html">Fonts and Typography</a></li>
-              <li><a class="dropdown-item" href="./content/colors.html">Colors</a></li>
-          </ul>
-      </div>
-      <div class="link">
-          <a href="./contact.html">Contact</a>
-      </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div id="resource">
-      <div class="heading">
-        <h2>RESOURCES</h2>
-      </div>
-
-      <div class="container">
-        <!-- Section for icons starts -->
-        <div class="section ">
-          <div class="row text-center">
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/icons.html">
-                <img class="card-img-top" src="../src/img/Icons/img1.PNG" alt="CSS Icon icon">
-                <div class="card-body">
-                  <h5 class="card-title">CSS Icon Resources</h5>
-                  <p class="card-text">This contains different resources for CSS Icons</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Section for UI illustrations starts -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/ui-illustrations.html">
-                <img class="card-img-top" src="../src/img/UI Ilustrations/drawKIT.jpg" alt="Illustrations Image">
-                <div class="card-body">
-                  <h5 class="card-title">UI Illustrations</h5>
-                  <p class="card-text">Get illustrations for any idea.</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Section for CSS  generators starts -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/css-generators.html">
-                <img class="card-img-top" src="../src/img/CSS Generators/Paaatterns.jpg" alt="paaatterns icon">
-                <div class="card-body">
-                  <h5 class="card-title">CSS Generators</h5>
-                  <p class="card-text">Generate patterns for you website using these resources.</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Stock Photos -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/stock-photos.html">
-                <img class="card-img-top" src="../src/img/Stock Photos/img1.jpg" alt="Unsplash icon">
-                <div class="card-body">
-                  <h5 class="card-title">Royalty Free images</h5>
-                  <p class="card-text">List of freely-usable images.</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Web design Inspirations -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/web-design-inspiration.html">
-                <img class="card-img-top" src="../src/img/Web design inspiration/design.jpg" alt="Design_your_Way icon">
-                <div class="card-body">
-                  <h5 class="card-title">Web Design Inspirations</h5>
-                  <p class="card-text">Never run out of ideas</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- UI UX Designs -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/ui-ux-designs.html">
-                <img class="card-img-top" src="../src/img/UI UX Design/3d-icons.png" alt="3D icons icon">
-                <div class="card-body">
-                  <h5 class="card-title">UI UX Designs</h5>
-                  <p class="card-text">Check all UI UX designs and case studies
-                  <p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Fonts and Typography -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/fonts.html" target="_blank">
-                <img class="card-img-top" src="../src/img/Fonts and Typography/img-1.png" alt="Google Fonts icon">
-                <div class="card-body">
-                  <h5 class="card-title">Fonts and Typographies</h5>
-                  <p class="card-text">List of all Fonts and Typographies</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Colors -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/colors.html">
-                <img class="card-img-top" src="../src/img/Great Colors/img-5.png" alt="Coloors palette icon">
-                <div class="card-body">
-                  <h5 class="card-title">Colors</h5>
-                  <p class="card-text">Color Generators and Color List</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Prototyping Tools -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/prototyping.html">
-                <img class="card-img-top" src="../../src/img/Prototyping-tools/PenPot.jpg" alt="Prototyping Tools">
-                <div class="card-body">
-                  <h5 class="card-title">Prototyping Tools</h5>
-                  <p class="card-text">List of Prototyping tools</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- Where to Learn Web Dev -->
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-              <a class="card card-style " href="./content/learn-web-dev.html">
-                <img class="card-img-top" src="../../src/img/LEARN WEBDEV/banner.png" alt="Prototyping Tools">
-               
-                <div class="card-body">
-                  <h5 class="card-title">Resources to Learn Web Dev</h5>
-                  <p class="card-text">List of Learning Resources</p>
-                </div>
-              </a>
-            </div>
-
-
-
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="./content/icons.html">Icons</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./content/ui-illustrations.html"
+                  >UI Illustration</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./content/css-generators.html"
+                  >CSS Generators</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./content/stock-photos.html"
+                  >Stock Photos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="./content/web-design-inspiration.html"
+                  >Web Design Inspiration</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./content/fonts.html"
+                  >Fonts and Typography</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./content/colors.html">Colors</a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <a href="./contact.html">Contact</a>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  <div class="togglebtn">
-    <input type="checkbox" class="checkbox" id="checkbox">
-    <label for="checkbox" class="label">
-        <i class="fas fa-moon"></i>
-        <i class='fas fa-sun'></i>
-        <div class='ball'></div>
-    </label>
-</div>
-  <footer>
-    <!--For share Buttons -->
-    <div class="sharethis-sticky-share-buttons"></div>
-    <div>
-      <h2>Follow Us</h2>
-    </div>
-    <!--Follow Us buttons -->
-    <div style="text-align: center; margin-bottom: 10px;">
-      <a href="https://www.linkedin.com/in/yashika-bhargava-1171581aa/" class="fa fa-linkedin"></a>
-      <!--Add your Linkedin-->
-      <a href="https://twitter.com/yashibhargava_" class="fa fa-twitter"></a>
-      <a href="https://github.com/yashikabhargava" class="fa fa-github"></a>
-      <!-- <a href="#" class="fa fa-hashnode"></a> -->
-      <!--Follow us button ENd-->
-    </div>
-    <p>Copyright © 2022 <strong>WebX.</strong> All Rights Reserved</p>
-  </footer>
-  <script src="../src/scripts/main.js"></script>
-</body>
+    </header>
+    <main>
+      <div id="resource">
+        <div class="heading">
+          <h2>RESOURCES</h2>
+        </div>
 
+        <div class="container">
+          <!-- Section for icons starts -->
+          <div class="section">
+            <div class="row text-center">
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/icons.html">
+                  <img
+                    class="card-img-top"
+                    src="../src/img/Icons/img1.PNG"
+                    alt="CSS Icon icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">CSS Icon Resources</h5>
+                    <p class="card-text">
+                      This contains different resources for CSS Icons
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Section for UI illustrations starts -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a
+                  class="card card-style"
+                  href="./content/ui-illustrations.html"
+                >
+                  <img
+                    class="card-img-top"
+                    src="../src/img/UI Ilustrations/drawKIT.jpg"
+                    alt="Illustrations Image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">UI Illustrations</h5>
+                    <p class="card-text">Get illustrations for any idea.</p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Section for CSS  generators starts -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/css-generators.html">
+                  <img
+                    class="card-img-top"
+                    src="../src/img/CSS Generators/Paaatterns.jpg"
+                    alt="paaatterns icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">CSS Generators</h5>
+                    <p class="card-text">
+                      Generate patterns for you website using these resources.
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Stock Photos -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/stock-photos.html">
+                  <img
+                    class="card-img-top"
+                    src="../src/img/Stock Photos/img1.jpg"
+                    alt="Unsplash icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Royalty Free images</h5>
+                    <p class="card-text">List of freely-usable images.</p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Web design Inspirations -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a
+                  class="card card-style"
+                  href="./content/web-design-inspiration.html"
+                >
+                  <img
+                    class="card-img-top"
+                    src="../src/img/Web design inspiration/design.jpg"
+                    alt="Design_your_Way icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Web Design Inspirations</h5>
+                    <p class="card-text">Never run out of ideas</p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- UI UX Designs -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/ui-ux-designs.html">
+                  <img
+                    class="card-img-top"
+                    src="../src/img/UI UX Design/3d-icons.png"
+                    alt="3D icons icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">UI UX Designs</h5>
+                    <p class="card-text">
+                      Check all UI UX designs and case studies
+                    </p>
+                    <p></p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Fonts and Typography -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a
+                  class="card card-style"
+                  href="./content/fonts.html"
+                  target="_blank"
+                >
+                  <img
+                    class="card-img-top"
+                    src="../src/img/Fonts and Typography/img-1.png"
+                    alt="Google Fonts icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Fonts and Typographies</h5>
+                    <p class="card-text">List of all Fonts and Typographies</p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Colors -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/colors.html">
+                  <img
+                    class="card-img-top"
+                    src="../src/img/Great Colors/img-5.png"
+                    alt="Coloors palette icon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Colors</h5>
+                    <p class="card-text">Color Generators and Color List</p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Prototyping Tools -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/prototyping.html">
+                  <img
+                    class="card-img-top"
+                    src="../../src/img/Prototyping-tools/PenPot.jpg"
+                    alt="Prototyping Tools"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Prototyping Tools</h5>
+                    <p class="card-text">List of Prototyping tools</p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Where to Learn Web Dev -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <a class="card card-style" href="./content/learn-web-dev.html">
+                  <img
+                    class="card-img-top"
+                    src="../../src/img/LEARN WEBDEV/banner.png"
+                    alt="Prototyping Tools"
+                  />
+
+                  <div class="card-body">
+                    <h5 class="card-title">Resources to Learn Web Dev</h5>
+                    <p class="card-text">List of Learning Resources</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="togglebtn">
+      <input type="checkbox" class="checkbox" id="checkbox" />
+      <label for="checkbox" class="label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+      </label>
+    </div>
+    <footer>
+      <!--For share Buttons -->
+      <div class="sharethis-sticky-share-buttons"></div>
+      <div>
+        <h2>Follow Us</h2>
+      </div>
+      <!--Follow Us buttons -->
+      <div style="text-align: center; margin-bottom: 10px">
+        <a
+          href="https://www.linkedin.com/in/yashika-bhargava-1171581aa/"
+          class="fa fa-linkedin"
+        ></a>
+        <!--Add your Linkedin-->
+        <a href="https://twitter.com/yashibhargava_" class="fa fa-twitter"></a>
+        <a href="https://github.com/yashikabhargava" class="fa fa-github"></a>
+        <!-- <a href="#" class="fa fa-hashnode"></a> -->
+        <!--Follow us button ENd-->
+      </div>
+      <p>Copyright © 2022 <strong>WebX.</strong> All Rights Reserved</p>
+    </footer>
+    <script src="../src/scripts/main.js"></script>
+  </body>
 </html>

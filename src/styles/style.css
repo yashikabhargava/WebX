@@ -305,6 +305,7 @@ input::-webkit-input-placeholder {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"], 
 select,
 textarea {
   width: 100%;
@@ -654,4 +655,34 @@ div#contact-us.dark {
 h3.icons-heading.dark,
 div.inner-heading.dark {
   color: white;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  pointer-events: none;
+  z-index: 2;
+}
+.icon-success {
+  fill: green;
+}
+
+.icon-error {
+  fill: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.error-message {
+  font-size: .85rem;
+  color: red;
 }

@@ -168,6 +168,7 @@ p {
 }
 .dropdown:hover {
   background-color: rgba(99, 181, 255, 1);
+  transition: 0.5s;
 }
 
 #landing {
@@ -553,7 +554,7 @@ label {
 }
 
 body.dark {
-  background-color: #292c35;
+  background: #292c35;
   color: #fff;
 }
 
@@ -579,7 +580,10 @@ body.dark .dropdown:hover {
 }
 body.dark .dropdown #dropdownMenuButton1 {
   background-color: #292c35;
-  color: #fff;
+  color:  #63b5ff;
+}
+body.dark .dropdown:hover #dropdownMenuButton1 {
+color:#fff;
 }
 body.dark .dropdown-menu {
   background-color: #292c35;

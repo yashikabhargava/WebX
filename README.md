@@ -34,7 +34,7 @@ Happy Submissions!
 </div>
 
 
-### This repository aims to help code beginners with their first successful pull request and open-source contribution. :partying_face:
+### This repository aims to help code beginners with their first successful pull request and open-source contribution.
 
 :star: Feel free to use this project to make your first contribution to an open-source project on GitHub.
 

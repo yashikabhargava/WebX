@@ -1,5 +1,5 @@
 
-# WebX: A streamlined website
+# WebX
 
 WebX is a streamlined website which focuses on providing various free frontend web development tools and inspiration all at one place.
  ## You can Have a look at website [**here**](https://yashikabhargava.github.io/WebX/) 

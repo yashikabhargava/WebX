@@ -14,7 +14,7 @@ In order to make a hassle-free environment, I implore you all (_while contributi
 
 Happy Submissions!
   
-## Screenshots of the working Application
+## Screenshots
 
 <img src="src/img/screenshot1.PNG"> 
 <img src="src/img/screenshot2.PNG">

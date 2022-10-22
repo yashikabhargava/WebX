@@ -6,7 +6,12 @@ This will be easier to change and add more functionality as need arises
 class Validator {
     constructor (form,fields) {
         this.form = form ;
-        this.fields = fields; 
+        this.fields = fields;
+        const phoneInputField = document.querySelector("#phone");
+        this.phoneInVal = window.intlTelInput(phoneInputField, {
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        }); 
     }
     initialize() {
         this.validateOnEntry()
@@ -20,6 +25,8 @@ class Validator {
             self.validateFields(input)
           })
         })
+
+        
     }
 
     validateFields(field) {
@@ -41,9 +48,9 @@ class Validator {
           }
         }
         if (field.type === "tel") {
-            
+            var isValid = this.phoneInVal.isValidNumber() ;
             const re = /^\d+$/ 
-            if (!re.test(field.value)) {
+            if (!re.test(field.value) && !isValid) {
                 this.setStatus (field, 'Phone number invalid', 'error')
             }
             else {

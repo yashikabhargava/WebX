@@ -7,10 +7,13 @@ class Validator {
     constructor (form,fields) {
         this.form = form ;
         this.fields = fields;
+        //initiallizing the telephone input plugin
         const phoneInputField = document.querySelector("#phone");
         this.phoneInVal = window.intlTelInput(phoneInputField, {
         utilsScript:
           "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        preferredCountries :
+          ["in", "lk", "us", "uk", "nep", "sg"]
         }); 
     }
     initialize() {
@@ -32,7 +35,7 @@ class Validator {
     validateFields(field) {
 
         // Check for empty fields
-        if (field.value.trim() === "") {
+        if (field.value.trim() === "" && field.type != "tel") {
           this.setStatus(field, `${field.previousElementSibling.innerText} cannot be blank`, "error")
         } else {
           this.setStatus(field, null, "success")
@@ -50,7 +53,7 @@ class Validator {
         if (field.type === "tel") {
             var isValid = this.phoneInVal.isValidNumber() ;
             const re = /^\d+$/ 
-            if (!re.test(field.value) && !isValid) {
+            if (!re.test(field.value) || !isValid) {
                 this.setStatus (field, 'Phone number invalid', 'error')
             }
             else {
@@ -62,11 +65,19 @@ class Validator {
 
     }
     setStatus(field, message, status) {
-        const parentSuccess = field.parentElement
-        const successIcon = parentSuccess.querySelector('.icon-success')
-        const errorIcon = field.parentElement.querySelector('.icon-error')
-        const errorMessage = field.parentElement.querySelector('.error-message')
-    
+      var successIcon; var errorIcon; var errorMessage ; var parentSuccess ;
+      if (field.type != "tel") {
+        parentSuccess = field.parentElement
+        successIcon = parentSuccess.querySelector('.icon-success')
+        errorIcon = field.parentElement.querySelector('.icon-error')
+        errorMessage = field.parentElement.querySelector('.error-message')
+      } else {
+        // country selector introduced new div to the tel field 
+        parentSuccess = (field.parentElement).parentElement
+        successIcon = parentSuccess.querySelector('.icon-success')
+        errorIcon = (field.parentElement).parentElement.querySelector('.icon-error')
+        errorMessage = (field.parentElement).parentElement.querySelector('.error-message')
+      }
         if (status === "success") {
           if (errorIcon) { errorIcon.classList.add('hidden') }
           if (errorMessage) { errorMessage.innerText = "" }
@@ -76,7 +87,7 @@ class Validator {
     
         if (status === "error") {
           if (successIcon) { successIcon.classList.add('hidden') }
-          field.parentElement.querySelector('.error-message').innerText = message
+          parentSuccess.querySelector('.error-message').innerText = message
           errorIcon.classList.remove('hidden')
           field.classList.add('input-error')
         }

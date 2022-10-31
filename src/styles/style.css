@@ -110,6 +110,8 @@ p {
   border-radius: 10px;
 } */
 
+
+
 .nav-area .left-nav a {
   float: left;
   color: #63b5ff;
@@ -122,7 +124,10 @@ p {
   font-weight: 500;
 }
 .nav-area .right-nav {
-  margin-right: 2rem;
+  margin-right: 3rem;
+  right: 0;
+  position: fixed;
+
 }
 
 .right-nav div,
@@ -757,4 +762,25 @@ div.inner-heading.dark {
 .error-message {
   font-size: .85rem;
   color: red;
+}
+
+#bootstrap-override{
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border-radius: 0px;
+  background: linear-gradient(80deg, #fdfafae1, #cacaca);
+  box-shadow: #8d8d8d,
+              #ffffff;
+}
+
+body.dark #bootstrap-override{
+  box-shadow: #000000, #373737 ;
+  background: linear-gradient(80deg, #55595ec0, #000000);
+}
+
+#resource{
+  margin-top: 80px;
 }

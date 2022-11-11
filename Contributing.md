@@ -5,7 +5,7 @@ Here is a complete guide to get you started with your Open Source contribution.
 
 </div>
 
-## Steps to follow 
+## Steps to follow:
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository you want to work on.
 2. The next step is to [Clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#step-2-create-a-local-clone-of-your-fork) the repository onto your local system.
 3. Make the desired changes.

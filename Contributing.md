@@ -1,7 +1,7 @@
 <div align="center">
 
 ### Thank you so much for considering contributing to this repository!!
-Here is a complete guide to get you started with your Open Source contribution.
+Here is a complete guide to get you started with your Open Source contribution to this project
 
 </div>
 

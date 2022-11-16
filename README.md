@@ -1,7 +1,7 @@
 
 # WebX
 
-WebX is a website which focuses on providing various free frontend web development tools and inspiration all at one place.
+WebX is a platform which focuses on providing various free frontend web development tools and inspiration all at one place.
  ### You can Have a look at website [**here**](https://yashikabhargava.github.io/WebX/) 
 
 # Built with

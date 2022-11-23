@@ -16,7 +16,7 @@ Here is a complete guide to get you started with your Open Source contribution t
 **NOTE:**
 - Please raise an issue before opening a PR.
 - Don't start working on an issue until it has been assigned to you.
-- Please use our PR template provided to open a new Pull request.
+- Kindly use our provided PR template to open a new Pull request.
 
 
 ## Tutorials (for better understanding):-

@@ -13,13 +13,13 @@ Here is a complete guide to get you started with your Open Source contribution t
 5. [Push]() all changes to your forked version on GitHub.
 6. GitHub tracks your push records and now its time for you to [Create a Pull request.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-**NOTE:**
+## NOTE:
 - Please raise an issue before opening a PR.
 - Don't start working on an issue until it has been assigned to you.
 - Kindly use our provided PR template to open a new Pull request.
 
 
-## Tutorials (for better understanding):-
+## Tutorials (for better understanding):
 1. How to contribute to Open Source by [freeCodeCamp.](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects/)
 2. YouTube Video by EddieJaoude, precisely covering all concepts in depth --> [click here.](https://www.youtube.com/watch?v=yzeVMecydCE)
 

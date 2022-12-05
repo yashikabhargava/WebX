@@ -21,20 +21,6 @@ body {
   height: auto;
 }
 
-/* added scrollbar design */
-
-body::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-body::-webkit-scrollbar-track {
-  background-color: #f0f0f042;
-}
-
-body::-webkit-scrollbar-thumb {
-  border-radius: 0.625rem;
-  background: #63b5ff;
-}
 
 h1 {
   font-weight: 400;
@@ -71,45 +57,6 @@ p {
   margin-right: 1rem;
   margin-top: 1rem;
 }
-
-/* .nav-area {
-  padding: 1rem;
-}
-
-.nav-area .left-nav a {
-  float: left;
-  color: #63b5ff;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 0rem 5rem;
-  font-size: 2.5rem;
-  font-family: "Zen Kurenaido", sans-serif;
-  font-weight: 500;
-}
-
-.nav-area .right-nav {
-  margin-right: 4rem;
-}
-
-.nav-area .right-nav a {
-  float: right;
-  color: #161616;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 0.5rem 1.5rem;
-  font: 1.5rem;
-  font-weight: 400;
-}
-
-.nav-area .right-nav a:hover {
-  color: #000;
-  background-color: rgba(99, 181, 255, 1);
-  transition: 0.5s;
-  border-radius: 10px;
-} */
-
 
 
 .nav-area .left-nav a {
@@ -187,11 +134,10 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-bottom: 3rem;
 }
 
 #landing-text {
-  margin-top: 6rem;
+  margin-top: rem;
   justify-content: center;
   align-items: center;
   text-align: center;

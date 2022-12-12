@@ -137,7 +137,7 @@ p {
 }
 
 #landing-text {
-  margin-top: rem;
+  margin-top: 14rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -169,7 +169,7 @@ p {
   background-position: center;
   background-size: 100vh;
   background-repeat: no-repeat;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .heading {

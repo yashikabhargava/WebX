@@ -107,6 +107,11 @@ p {
   background-color: transparent !important;
   font-family: inherit;
 }
+#dropdownMenuButton1:focus,#dropdownMenuButton1:active ,
+#dropdownMenuButton1:hover {
+box-shadow: none;
+}
+
 .dropdown-menu {
   border-radius: 10px;
   position: absolute;
